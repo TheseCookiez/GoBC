@@ -6,6 +6,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"log"
+	"net"
 	"net/http"
 	"os"
 	"strconv"
@@ -220,6 +222,19 @@ func cli_test() {
 	validate_blockchain()
 }
 
+// Func to get the local IP address of this machine
+func GetOutboundIP() net.IP {
+	conn, err := net.Dial("udp", "8.8.8.8:80")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer conn.Close()
+
+	localAddr := conn.LocalAddr().(*net.UDPAddr)
+
+	return localAddr.IP
+}
+
 func main() {
 	// Check if a blockchain already exists and load it
 	// If no blockchain exists, create a new one with a new genesis block
@@ -278,7 +293,9 @@ func main() {
 
 	//fmt.Println("Listening on port 8080...")
 	//log.Fatal(http.ListenAndServe(":8080", nil))
+	fmt.Println(GetOutboundIP())
 	cli_test()
+
 	// var evilblock block
 	// evilblock.Index = 1
 	// evilblock.Timestamp = "01/01/2018"
