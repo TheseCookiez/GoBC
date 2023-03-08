@@ -3,9 +3,9 @@
   "index": 1,
   "timestamp": "01/01/2018",
   "data": {
-   "sender": "GOD",
-   "recipient": "BANK",
-   "amount": 10000
+   "sender": "System",
+   "recipient": "POOL",
+   "amount": 10000000
   },
   "hash": {
    "hash": "gabagol",
@@ -15,170 +15,114 @@
  },
  {
   "index": 2,
-  "timestamp": "02/27/2023 03:10:12",
+  "timestamp": "03/08/2023 13:52:29",
   "data": {
-   "sender": "BANK",
+   "sender": "POOL",
    "recipient": "Alice",
    "amount": 100
   },
   "hash": {
-   "hash": "000deff726afbbbadc9fb331548a3f098c81d93ad491499bd1dc0e3c814fa0a1",
+   "hash": "000cf393b4289488f7bdaddbfb1d087ceb7f27de39056c43f550273a80ff4df4",
    "previous_hash": "gabagol",
-   "proof": "603"
+   "proof": "8016"
   }
  },
  {
   "index": 3,
-  "timestamp": "02/27/2023 03:10:12",
+  "timestamp": "03/08/2023 13:52:29",
   "data": {
    "sender": "Alice",
    "recipient": "Bob",
    "amount": 50
   },
   "hash": {
-   "hash": "000c126c6323bfd2e7d15dfc3d16c29dca03f5b76c2dde88a5329bd3018c572c",
-   "previous_hash": "000deff726afbbbadc9fb331548a3f098c81d93ad491499bd1dc0e3c814fa0a1",
-   "proof": "2562"
+   "hash": "0003233fd936d7524a63793dfced1540137babac03526f9542b5302cb8a86f54",
+   "previous_hash": "000cf393b4289488f7bdaddbfb1d087ceb7f27de39056c43f550273a80ff4df4",
+   "proof": "157"
   }
  },
  {
   "index": 4,
-  "timestamp": "02/27/2023 03:10:12",
+  "timestamp": "03/08/2023 13:52:29",
   "data": {
    "sender": "Bob",
    "recipient": "Alice",
    "amount": 25
   },
   "hash": {
-   "hash": "000cca52b8f9d90ec2dfe39f770c545372ff19dad4c2931e7e0552d99d3931ef",
-   "previous_hash": "000c126c6323bfd2e7d15dfc3d16c29dca03f5b76c2dde88a5329bd3018c572c",
-   "proof": "435"
+   "hash": "0008d11707522b2903ecdde6b2979ca34d7fcc5894389a6d9556f7f0c9bb88e7",
+   "previous_hash": "0003233fd936d7524a63793dfced1540137babac03526f9542b5302cb8a86f54",
+   "proof": "74"
   }
  },
  {
   "index": 5,
-  "timestamp": "02/27/2023 03:10:12",
+  "timestamp": "03/08/2023 13:52:29",
   "data": {
-   "sender": "BANK",
+   "sender": "POOL",
    "recipient": "Steven",
    "amount": 100
   },
   "hash": {
-   "hash": "0001fb84f5b4cdb28be3c8574f5a61e5eb31f212251473181f9e0edef9b3db18",
-   "previous_hash": "000cca52b8f9d90ec2dfe39f770c545372ff19dad4c2931e7e0552d99d3931ef",
-   "proof": "2501"
+   "hash": "0002608fa1ce65a26a5177396da819267cc49f03b00698e6d7024a84d559e71d",
+   "previous_hash": "0008d11707522b2903ecdde6b2979ca34d7fcc5894389a6d9556f7f0c9bb88e7",
+   "proof": "2492"
   }
  },
  {
   "index": 6,
-  "timestamp": "02/27/2023 03:10:12",
+  "timestamp": "03/08/2023 13:52:29",
   "data": {
    "sender": "Steven",
    "recipient": "James",
    "amount": 25
   },
   "hash": {
-   "hash": "000936d03a33fa45025537ea9fb52ce39f178b828cc43ea610d4e27f42db77f4",
-   "previous_hash": "0001fb84f5b4cdb28be3c8574f5a61e5eb31f212251473181f9e0edef9b3db18",
-   "proof": "60"
+   "hash": "00056af94cf2576004623fc0a0c144bd69e1cba807a547f444c2550ec0ee7b13",
+   "previous_hash": "0002608fa1ce65a26a5177396da819267cc49f03b00698e6d7024a84d559e71d",
+   "proof": "482"
   }
  },
  {
   "index": 7,
-  "timestamp": "02/27/2023 03:10:12",
+  "timestamp": "03/08/2023 13:52:29",
   "data": {
    "sender": "James",
    "recipient": "Steven",
    "amount": 25
   },
   "hash": {
-   "hash": "0008634b57cbaac161bf0baa885ef94f4e35bc81c5669552fd80c47fbaaa23c9",
-   "previous_hash": "000936d03a33fa45025537ea9fb52ce39f178b828cc43ea610d4e27f42db77f4",
-   "proof": "4024"
+   "hash": "000662005f7442ceba272f7a06e2feec68141f6a0dff920d875639eda1fdfded",
+   "previous_hash": "00056af94cf2576004623fc0a0c144bd69e1cba807a547f444c2550ec0ee7b13",
+   "proof": "1930"
   }
  },
  {
   "index": 8,
-  "timestamp": "02/27/2023 03:10:12",
+  "timestamp": "03/08/2023 13:52:29",
   "data": {
-   "sender": "BANK",
+   "sender": "POOL",
    "recipient": "James",
    "amount": 100
   },
   "hash": {
-   "hash": "00079c4e752d13e35e908a5b74f2f59667f5eba7413f6896aa79aa29abea1ab1",
-   "previous_hash": "0008634b57cbaac161bf0baa885ef94f4e35bc81c5669552fd80c47fbaaa23c9",
-   "proof": "30482"
+   "hash": "000ab4c5a21430e11d93225c222ffdf38d5cc4eb965ed01ff0896a658c35f14a",
+   "previous_hash": "000662005f7442ceba272f7a06e2feec68141f6a0dff920d875639eda1fdfded",
+   "proof": "14257"
   }
  },
  {
   "index": 9,
-  "timestamp": "02/27/2023 03:10:12",
+  "timestamp": "03/08/2023 13:52:29",
   "data": {
    "sender": "James",
    "recipient": "Bob",
    "amount": 25
   },
   "hash": {
-   "hash": "000b9f6540ad36cb45e5f28c705d9dbdf0fc30e2040e744e027beddce656f793",
-   "previous_hash": "00079c4e752d13e35e908a5b74f2f59667f5eba7413f6896aa79aa29abea1ab1",
-   "proof": "4541"
-  }
- },
- {
-  "index": 10,
-  "timestamp": "02/28/2023 19:02:58",
-  "data": {
-   "sender": "James",
-   "recipient": "Alice",
-   "amount": 50
-  },
-  "hash": {
-   "hash": "00095951079ed4c11247828d0dabf31c71b25f4f754fe81a07c8993ebbf13d44",
-   "previous_hash": "000b9f6540ad36cb45e5f28c705d9dbdf0fc30e2040e744e027beddce656f793",
-   "proof": "9728"
-  }
- },
- {
-  "index": 11,
-  "timestamp": "02/28/2023 19:04:30",
-  "data": {
-   "sender": "Alice",
-   "recipient": "James",
-   "amount": 20
-  },
-  "hash": {
-   "hash": "00057b45de0a066f1cf770cfc523db3169ef1005450261138dbaf1cc49115d66",
-   "previous_hash": "00095951079ed4c11247828d0dabf31c71b25f4f754fe81a07c8993ebbf13d44",
-   "proof": "2005"
-  }
- },
- {
-  "index": 12,
-  "timestamp": "02/28/2023 19:07:12",
-  "data": {
-   "sender": "James",
-   "recipient": "Alice",
-   "amount": 20
-  },
-  "hash": {
-   "hash": "000928a9dee5aa765791b65a947adf765356fc79a22e41edbb4f62796e271371",
-   "previous_hash": "00057b45de0a066f1cf770cfc523db3169ef1005450261138dbaf1cc49115d66",
-   "proof": "1032"
-  }
- },
- {
-  "index": 13,
-  "timestamp": "03/01/2023 07:48:45",
-  "data": {
-   "sender": "BANK",
-   "recipient": "Alice",
-   "amount": 70
-  },
-  "hash": {
-   "hash": "0003c38f57152bcf9e09b28937ec726d02e792315de3297cf5c016db28915c07",
-   "previous_hash": "000928a9dee5aa765791b65a947adf765356fc79a22e41edbb4f62796e271371",
-   "proof": "1732"
+   "hash": "000923e66dd096a19436d747b66f8fd36d8cc303aed4abb28d2c47629701c985",
+   "previous_hash": "000ab4c5a21430e11d93225c222ffdf38d5cc4eb965ed01ff0896a658c35f14a",
+   "proof": "162"
   }
  }
 ]

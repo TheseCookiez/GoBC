@@ -155,7 +155,7 @@ func genesis_block() {
 	var genesis block
 	genesis.Index = 1
 	genesis.Timestamp = "01/01/2018"
-	genesis.Data = transactions{"GOD", "BANK", 10000}
+	genesis.Data = transactions{"System", "POOL", 10000000}
 	genesis.Hash.Proof = "0"
 	genesis.Hash.Hash = "gabagol"
 	genesis.Hash.Previoushash = "shaboingus"
@@ -234,15 +234,16 @@ func main() {
 
 	// Create a few new blocks and add them to the blockchain
 
-	// create_block("BANK", "Alice", 100, 1)
+	// create_block("POOL", "Alice", 100, 1)
 	// create_block("Alice", "Bob", 50, 1)
 	// create_block("Bob", "Alice", 25, 1)
 	// create_block("Steven", "James", 25, 1)
-	// create_block("BANK", "Steven", 100, 1)
+	// create_block("POOL", "Steven", 100, 1)
 	// create_block("Steven", "James", 25, 1)
 	// create_block("James", "Steven", 25, 1)
-	// create_block("BANK", "James", 100, 1)
+	// create_block("POOL", "James", 100, 1)
 	// create_block("James", "Bob", 25, 1)
+	// save_blockchain_json()
 
 	// Check if the blockchain is valid
 
