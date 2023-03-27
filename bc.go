@@ -85,15 +85,17 @@ func create_block(sender string, recipient string, amount int, add_to_chain int)
 	return new_block
 }
 
+// Hashing and proof of work function
 func better_hash(block block) hash_info {
 	var Hash = sha256.New()
+	// Load the block's data into a byte array
 	var block_information = []byte(fmt.Sprint(block.Index) + block.Timestamp + block.Data.Sender + block.Data.Recipient + fmt.Sprint(block.Data.Amount) + block.Hash.Previoushash)
 	var proof = 0
 	var n bool = false
-	var to_be_Hashed = []byte(block_information)
+	// Iterate through the proof of work until the hash starts with 000
 	for !n {
 		proof += 1
-		Hash.Write(to_be_Hashed)
+		Hash.Write(block_information)
 		Hash.Write([]byte(fmt.Sprint(proof)))
 		if fmt.Sprintf("%x", Hash.Sum(nil))[:3] == "000" {
 			//fmt.Printf("\nValid proof found!: %d\n", proof)
@@ -153,10 +155,12 @@ func balance(sender string) int {
 	return balance
 }
 
+// Function to create the genesis block
 func genesis_block() {
 	var genesis block
 	genesis.Index = 1
 	genesis.Timestamp = "01/01/2018"
+	// Start the blockchain with 10,000,000 coins to have a starting balance
 	genesis.Data = transactions{"System", "POOL", 10000000}
 	genesis.Hash.Proof = "0"
 	genesis.Hash.Hash = "gabagol"
@@ -199,6 +203,7 @@ func load_blockchain_json() bool {
 	}
 }
 
+// CLI testing functionality for testing the blockchain
 func cli_test() {
 	scanner := bufio.NewScanner(os.Stdin)
 	fmt.Println("\nWelcome to the Blockchain CLI\nCreate new block? (y/n)")
@@ -268,7 +273,7 @@ func main() {
 		fmt.Println("\nBlockchain is invalid!")
 		os.Exit(1)
 	}
-
+	// HTTP server to display the blockchain
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		bc_json, _ := json.MarshalIndent(blockchain, "", " ")
 		str_bc_json := string(bc_json)
@@ -276,12 +281,12 @@ func main() {
 		t, _ := template.ParseFiles("template.html")
 		t.Execute(w, content)
 	})
-
+	// HTTP server to display the blockchain as JSON
 	http.HandleFunc("/chain", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/json")
 		json.NewEncoder(w).Encode(blockchain)
 	})
-
+	// HTTP server to validate the blockchain
 	http.HandleFunc("/valid", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "text/html")
 		if validate_blockchain() == true {
