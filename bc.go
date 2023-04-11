@@ -16,8 +16,8 @@ import (
 var blockchain []block
 
 type html_data struct {
-	Title string
-	Data  string
+	Title string `json:"title"`
+	Data  string `json:"data"`
 }
 
 type transactions struct {
