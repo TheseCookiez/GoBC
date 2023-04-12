@@ -6,12 +6,21 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"math/rand"
 	"net/http"
 	"os"
-	"strconv"
 	"text/template"
 	"time"
 )
+
+/*
+TODO:
+- Add a function to check vehicle position and speed is within the bounds (maybe)
+- Add a function to check if the vehicle changes region
+- Add a function to check if the vehicle changes occupancy
+- Add a function to check if the vehicle changes state
+- Add a function to check if the vehicle changes static information (Manufacturer, Model, ID, etc.)
+*/
 
 var blockchain []block
 
@@ -20,10 +29,17 @@ type html_data struct {
 	Data  string `json:"data"`
 }
 
-type transactions struct {
-	Sender    string `json:"sender"`
-	Recipient string `json:"recipient"`
-	Amount    int    `json:"amount"`
+type Information struct {
+	Vehicle_ID      int    `json:"Vehicle_ID"`    // Vehicle ID
+	Vehicle_Manu    string `json:"Vehicle_Manu"`  // Manufacturer
+	Vehicle_Model   string `json:"Vehicle_Model"` // Model
+	Vehicle_State   string `json:"Vehicle_State"` // State (Active, Inactive, etc.) / (Driving, Parked, etc.)
+	Owner_ID        int    `json:"Owner_ID"`      // Owner ID
+	Passenger_Count int    `json:"Occupancy"`     // Occupancy
+	Region          string `json:"Region"`        // Region
+	X_pos           int    `json:"X_pos"`         // X Position
+	Y_pos           int    `json:"Y_pos"`         // Y Position
+	V_Speed         int    `json:"V_Speed"`       // Vehicle Speed (km/h)
 }
 
 type hash_info struct {
@@ -33,32 +49,41 @@ type hash_info struct {
 }
 
 type block struct {
-	Index     int          `json:"index"`
-	Timestamp string       `json:"timestamp"`
-	Data      transactions `json:"data"`
-	Hash      hash_info    `json:"hash"`
+	Index     int         `json:"index"`
+	Timestamp string      `json:"timestamp"`
+	Data      Information `json:"data"`
+	Hash      hash_info   `json:"hash"`
 }
 
-func create_block(sender string, recipient string, amount int, add_to_chain int) block {
+func create_block(proposal block, add_to_chain int) block {
 	// Declare variables
 	var new_block block
-	var new_block_Data transactions
+	var new_block_Data Information
 	var chain_lenght = len(blockchain)
 
 	// Assign values to sender, Recipient, and Amount
 	// Check if the sender has enough funds to send the Amount
-	if balance(sender) < amount {
-		// If the sender does not have enough funds, print an error message and
-		// return the new block without appending it to the blockchain
-		fmt.Printf("Insufficient funds! %s has %d and is trying to send %d\n", sender, balance(sender), amount)
-		return new_block
-	} else {
-		new_block_Data.Sender = sender
-	}
 
-	// Assign the rest of the values of the recipient and Amount
-	new_block_Data.Recipient = recipient
-	new_block_Data.Amount = amount
+	// if balance(sender) < amount {
+	// 	// If the sender does not have enough funds, print an error message and
+	// 	// return the new block without appending it to the blockchain
+	// 	fmt.Printf("Insufficient funds! %s has %d and is trying to send %d\n", sender, balance(sender), amount)
+	// 	return new_block
+	// } else {
+	// 	new_block_Data.Sender = sender
+	// }
+
+	// Assign the rest of the values
+	new_block_Data.Vehicle_ID = proposal.Data.Vehicle_ID
+	new_block_Data.Vehicle_Manu = proposal.Data.Vehicle_Manu
+	new_block_Data.Vehicle_Model = proposal.Data.Vehicle_Model
+	new_block_Data.Vehicle_State = proposal.Data.Vehicle_State
+	new_block_Data.Owner_ID = proposal.Data.Owner_ID
+	new_block_Data.Passenger_Count = proposal.Data.Passenger_Count
+	new_block_Data.Region = proposal.Data.Region
+	new_block_Data.X_pos = proposal.Data.X_pos
+	new_block_Data.Y_pos = proposal.Data.Y_pos
+	new_block_Data.V_Speed = proposal.Data.V_Speed
 
 	// Assign values to Index, Timestamp, Data, Previoushash, and Hash
 	new_block.Index = chain_lenght + 1
@@ -71,27 +96,24 @@ func create_block(sender string, recipient string, amount int, add_to_chain int)
 	new_block.Hash.Hash = better_hash(new_block).Hash
 	new_block.Hash.Proof = better_hash(new_block).Proof
 
-	// Append the new block to the blockchain
+	// Append the new block to the blockchain and save the blockchain to a JSON file
 	if add_to_chain == 1 {
 		blockchain = append(blockchain, new_block)
-	} else {
-		return new_block
+		save_blockchain_json()
 	}
 	//validate_blockchain()
-	// Write the blockchain to JSON file
-	save_blockchain_json()
 	return new_block
 }
 
 func better_hash(block block) hash_info {
 	var Hash = sha256.New()
-	var block_information = []byte(fmt.Sprint(block.Index) + block.Timestamp + block.Data.Sender + block.Data.Recipient + fmt.Sprint(block.Data.Amount) + block.Hash.Previoushash)
+	// Add all the block information to a byte array ********* FIX THIS *********
+	var block_information = []byte(fmt.Sprint(block.Index) + block.Timestamp + fmt.Sprint(block.Data.Vehicle_ID) + block.Data.Vehicle_Manu + block.Data.Vehicle_Model + block.Data.Vehicle_State + fmt.Sprint(block.Data.Owner_ID) + fmt.Sprint(block.Data.Passenger_Count) + block.Data.Region + fmt.Sprint(block.Data.X_pos) + fmt.Sprint(block.Data.Y_pos) + fmt.Sprint(block.Data.V_Speed) + block.Hash.Previoushash)
 	var proof = 0
 	var n bool = false
-	var to_be_Hashed = []byte(block_information)
 	for !n {
 		proof += 1
-		Hash.Write(to_be_Hashed)
+		Hash.Write(block_information)
 		Hash.Write([]byte(fmt.Sprint(proof)))
 		if fmt.Sprintf("%x", Hash.Sum(nil))[:3] == "000" {
 			//fmt.Printf("\nValid proof found!: %d\n", proof)
@@ -134,28 +156,28 @@ func validate_blockchain() bool {
 }
 
 // Calculate the balance of a sender and verify that the sender has enough funds to send the Amount
-func balance(sender string) int {
-	var balance = 0
-	// Iterate through the blockchain
-	for i := 0; i < len(blockchain); i++ {
-		// Check if the sender is the sender or recipient of the given transaction
-		// If the current sender is the sender, subtract the Amount from the balance
-		if blockchain[i].Data.Sender == sender {
-			balance -= blockchain[i].Data.Amount
-		}
-		// If the current sender is the recipient, add the Amount to the balance
-		if blockchain[i].Data.Recipient == sender {
-			balance += blockchain[i].Data.Amount
-		}
-	}
-	return balance
-}
+// func balance(sender string) int {
+// 	var balance = 0
+// 	// Iterate through the blockchain
+// 	for i := 0; i < len(blockchain); i++ {
+// 		// Check if the sender is the sender or recipient of the given transaction
+// 		// If the current sender is the sender, subtract the Amount from the balance
+// 		if blockchain[i].Data.Sender == sender {
+// 			balance -= blockchain[i].Data.Amount
+// 		}
+// 		// If the current sender is the recipient, add the Amount to the balance
+// 		if blockchain[i].Data.Recipient == sender {
+// 			balance += blockchain[i].Data.Amount
+// 		}
+// 	}
+// 	return balance
+// }
 
 func genesis_block() {
 	var genesis block
 	genesis.Index = 1
 	genesis.Timestamp = "01/01/2018"
-	genesis.Data = transactions{"System", "POOL", 10000000}
+	genesis.Data = Information{0, "Genesis", "Genesis", "Genesis", 0, 0, "Genesis", 0, 0, 0}
 	genesis.Hash.Proof = "0"
 	genesis.Hash.Hash = "gabagol"
 	genesis.Hash.Previoushash = "shaboingus"
@@ -198,26 +220,29 @@ func load_blockchain_json() bool {
 }
 
 func cli_test() {
+	proposal := block{}
 	scanner := bufio.NewScanner(os.Stdin)
 	fmt.Println("\nWelcome to the Blockchain CLI\nCreate new block? (y/n)")
 	scanner.Scan()
 	input := scanner.Text()
 	if input == "y" {
-		fmt.Println("\nSender:")
-		scanner.Scan()
-		sender := scanner.Text()
-		fmt.Println("\nRecipient:")
-		scanner.Scan()
-		recipient := scanner.Text()
-		fmt.Println("\nAmount:")
-		scanner.Scan()
-		amount_string := scanner.Text()
-		amount, _ := strconv.Atoi(amount_string)
-		create_block(sender, recipient, amount, 1)
+		proposal.Data.Vehicle_ID = rand.Intn(100)
+		proposal.Data.Vehicle_Manu = "Ford"
+		proposal.Data.Vehicle_Model = "F150"
+		proposal.Data.Vehicle_State = "Active"
+		proposal.Data.Owner_ID = rand.Intn(100)
+		proposal.Data.Passenger_Count = rand.Intn(5)
+		proposal.Data.Region = "North America"
+		proposal.Data.X_pos = rand.Intn(100)
+		proposal.Data.Y_pos = rand.Intn(100)
+		proposal.Data.V_Speed = rand.Intn(100)
+
+		fmt.Println("Creating new block with data:\n ", proposal.Data)
+		create_block(proposal, 1)
 	} else {
 		fmt.Printf("\nExiting CLI %s", input)
 	}
-	validate_blockchain()
+
 }
 
 func main() {
@@ -251,7 +276,7 @@ func main() {
 		fmt.Println("\nBlockchain is valid")
 	} else {
 		fmt.Println("\nBlockchain is invalid!")
-		os.Exit(1)
+
 	}
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
@@ -282,7 +307,7 @@ func main() {
 	// var evilblock block
 	// evilblock.Index = 1
 	// evilblock.Timestamp = "01/01/2018"
-	// evilblock.Data = transactions{"Alice", "HAX0R", 10000000}
+	// evilblock.Data = Data{"Alice", "HAX0R", 10000000}
 	// evilblock.Hash = "123"
 	// evilblock.Previoushash = "0"
 	// blockchain = append(blockchain[:2], evilblock)

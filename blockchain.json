@@ -3,9 +3,16 @@
   "index": 1,
   "timestamp": "01/01/2018",
   "data": {
-   "sender": "System",
-   "recipient": "POOL",
-   "amount": 10000000
+   "Vehicle_ID": 0,
+   "Vehicle_Manu": "Genesis",
+   "Vehicle_Model": "Genesis",
+   "Vehicle_State": "Genesis",
+   "Owner_ID": 0,
+   "Occupancy": 0,
+   "Region": "Genesis",
+   "X_pos": 0,
+   "Y_pos": 0,
+   "V_Speed": 0
   },
   "hash": {
    "hash": "gabagol",
@@ -15,114 +22,44 @@
  },
  {
   "index": 2,
-  "timestamp": "03/08/2023 13:52:29",
+  "timestamp": "04/12/2023 12:12:44",
   "data": {
-   "sender": "POOL",
-   "recipient": "Alice",
-   "amount": 100
+   "Vehicle_ID": 39,
+   "Vehicle_Manu": "Ford",
+   "Vehicle_Model": "F150",
+   "Vehicle_State": "Active",
+   "Owner_ID": 79,
+   "Occupancy": 2,
+   "Region": "North America",
+   "X_pos": 25,
+   "Y_pos": 17,
+   "V_Speed": 54
   },
   "hash": {
-   "hash": "000cf393b4289488f7bdaddbfb1d087ceb7f27de39056c43f550273a80ff4df4",
+   "hash": "000decdd5bc66cb623bea6acaae936062c7ed926c01fd53521bc6d71d2d18ac9",
    "previous_hash": "gabagol",
-   "proof": "8016"
+   "proof": "232"
   }
  },
  {
   "index": 3,
-  "timestamp": "03/08/2023 13:52:29",
+  "timestamp": "04/12/2023 12:13:17",
   "data": {
-   "sender": "Alice",
-   "recipient": "Bob",
-   "amount": 50
+   "Vehicle_ID": 14,
+   "Vehicle_Manu": "Ford",
+   "Vehicle_Model": "F150",
+   "Vehicle_State": "Active",
+   "Owner_ID": 75,
+   "Occupancy": 3,
+   "Region": "North America",
+   "X_pos": 57,
+   "Y_pos": 82,
+   "V_Speed": 7
   },
   "hash": {
-   "hash": "0003233fd936d7524a63793dfced1540137babac03526f9542b5302cb8a86f54",
-   "previous_hash": "000cf393b4289488f7bdaddbfb1d087ceb7f27de39056c43f550273a80ff4df4",
-   "proof": "157"
-  }
- },
- {
-  "index": 4,
-  "timestamp": "03/08/2023 13:52:29",
-  "data": {
-   "sender": "Bob",
-   "recipient": "Alice",
-   "amount": 25
-  },
-  "hash": {
-   "hash": "0008d11707522b2903ecdde6b2979ca34d7fcc5894389a6d9556f7f0c9bb88e7",
-   "previous_hash": "0003233fd936d7524a63793dfced1540137babac03526f9542b5302cb8a86f54",
-   "proof": "74"
-  }
- },
- {
-  "index": 5,
-  "timestamp": "03/08/2023 13:52:29",
-  "data": {
-   "sender": "POOL",
-   "recipient": "Steven",
-   "amount": 100
-  },
-  "hash": {
-   "hash": "0002608fa1ce65a26a5177396da819267cc49f03b00698e6d7024a84d559e71d",
-   "previous_hash": "0008d11707522b2903ecdde6b2979ca34d7fcc5894389a6d9556f7f0c9bb88e7",
-   "proof": "2492"
-  }
- },
- {
-  "index": 6,
-  "timestamp": "03/08/2023 13:52:29",
-  "data": {
-   "sender": "Steven",
-   "recipient": "James",
-   "amount": 25
-  },
-  "hash": {
-   "hash": "00056af94cf2576004623fc0a0c144bd69e1cba807a547f444c2550ec0ee7b13",
-   "previous_hash": "0002608fa1ce65a26a5177396da819267cc49f03b00698e6d7024a84d559e71d",
-   "proof": "482"
-  }
- },
- {
-  "index": 7,
-  "timestamp": "03/08/2023 13:52:29",
-  "data": {
-   "sender": "James",
-   "recipient": "Steven",
-   "amount": 25
-  },
-  "hash": {
-   "hash": "000662005f7442ceba272f7a06e2feec68141f6a0dff920d875639eda1fdfded",
-   "previous_hash": "00056af94cf2576004623fc0a0c144bd69e1cba807a547f444c2550ec0ee7b13",
-   "proof": "1930"
-  }
- },
- {
-  "index": 8,
-  "timestamp": "03/08/2023 13:52:29",
-  "data": {
-   "sender": "POOL",
-   "recipient": "James",
-   "amount": 100
-  },
-  "hash": {
-   "hash": "000ab4c5a21430e11d93225c222ffdf38d5cc4eb965ed01ff0896a658c35f14a",
-   "previous_hash": "000662005f7442ceba272f7a06e2feec68141f6a0dff920d875639eda1fdfded",
-   "proof": "14257"
-  }
- },
- {
-  "index": 9,
-  "timestamp": "03/08/2023 13:52:29",
-  "data": {
-   "sender": "James",
-   "recipient": "Bob",
-   "amount": 25
-  },
-  "hash": {
-   "hash": "000923e66dd096a19436d747b66f8fd36d8cc303aed4abb28d2c47629701c985",
-   "previous_hash": "000ab4c5a21430e11d93225c222ffdf38d5cc4eb965ed01ff0896a658c35f14a",
-   "proof": "162"
+   "hash": "00071e92504b8ea2119569eb073620bceb72aeacecf7c6a7554b6421ebd917b5",
+   "previous_hash": "000decdd5bc66cb623bea6acaae936062c7ed926c01fd53521bc6d71d2d18ac9",
+   "proof": "2960"
   }
  }
 ]
