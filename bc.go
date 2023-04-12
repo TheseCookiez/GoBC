@@ -131,8 +131,6 @@ func validate_blockchain() bool {
 		var previous_block = blockchain[i-1]
 		// Check if the current block's hash is correct given the current block's data, hash and proof
 		test := better_hash(current_block)
-		// fmt.Println("****************** Starting Validation of Block ", current_block.Index, "******************")
-		// fmt.Println("\nValidating Current Block's Hash ", current_block.Hash.Hash, " to ", test.Hash)
 		if test.Hash == current_block.Hash.Hash {
 			// fmt.Println("\nValidating Hash Success")
 			if test.Proof == current_block.Hash.Proof {
@@ -145,7 +143,6 @@ func validate_blockchain() bool {
 			return false
 		}
 		// Check if the current block's previous hash is equal to the previous block's hash
-		// fmt.Println("\nValidating Current Block's Previous Hash to Previous Block's Hash", current_block.Hash.Previoushash, " to ", previous_block.Hash.Hash)
 		if current_block.Hash.Previoushash != previous_block.Hash.Hash {
 			fmt.Println("\nValidating Previous Hash Failed")
 			return false
@@ -159,10 +156,10 @@ func validate_blockchain() bool {
 func verify_data(proposal block) bool {
 	// Iterate through the blockchain
 	for i := 0; i < len(blockchain); i++ {
-		// Check if the sender is the sender or recipient of the given transaction
-		// If the current sender is the sender, subtract the Amount from the balance
+		// Check if the Vehicle_ID and Owner_ID are valid
 		if blockchain[i].Data.Vehicle_ID == proposal.Data.Vehicle_ID {
 			if blockchain[i].Data.Owner_ID == proposal.Data.Owner_ID {
+				// Check if the Vehicle_Manu and Vehicle_Model have not changed
 				if blockchain[i].Data.Vehicle_Manu != proposal.Data.Vehicle_Manu {
 					fmt.Println("Vehicle Manufacturer Mismatch")
 					return false
@@ -180,6 +177,7 @@ func verify_data(proposal block) bool {
 	return true
 }
 
+// Create the genesis block
 func genesis_block() {
 	var genesis block
 	genesis.Index = 1
@@ -226,6 +224,7 @@ func load_blockchain_json() bool {
 	}
 }
 
+// CLI test function
 func cli_test() {
 	proposal := block{}
 	scanner := bufio.NewScanner(os.Stdin)
@@ -255,7 +254,6 @@ func cli_test() {
 func main() {
 	// Check if a blockchain already exists and load it
 	// If no blockchain exists, create a new one with a new genesis block
-
 	if load_blockchain_json() == false {
 		genesis_block()
 		save_blockchain_json()
@@ -264,21 +262,7 @@ func main() {
 		fmt.Println("\nBlockchain found, loading it")
 	}
 
-	// Create a few new blocks and add them to the blockchain
-
-	// create_block("POOL", "Alice", 100, 1)
-	// create_block("Alice", "Bob", 50, 1)
-	// create_block("Bob", "Alice", 25, 1)
-	// create_block("Steven", "James", 25, 1)
-	// create_block("POOL", "Steven", 100, 1)
-	// create_block("Steven", "James", 25, 1)
-	// create_block("James", "Steven", 25, 1)
-	// create_block("POOL", "James", 100, 1)
-	// create_block("James", "Bob", 25, 1)
-	// save_blockchain_json()
-
 	// Check if the blockchain is valid
-
 	if validate_blockchain() == true {
 		fmt.Println("\nBlockchain is valid")
 	} else {
@@ -286,6 +270,7 @@ func main() {
 
 	}
 
+	// HTTP Server Pages
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		bc_json, _ := json.MarshalIndent(blockchain, "", " ")
 		str_bc_json := string(bc_json)
@@ -311,12 +296,5 @@ func main() {
 	//fmt.Println("Listening on port 8080...")
 	//log.Fatal(http.ListenAndServe(":8080", nil))
 	cli_test()
-	// var evilblock block
-	// evilblock.Index = 1
-	// evilblock.Timestamp = "01/01/2018"
-	// evilblock.Data = Data{"Alice", "HAX0R", 10000000}
-	// evilblock.Hash = "123"
-	// evilblock.Previoushash = "0"
-	// blockchain = append(blockchain[:2], evilblock)
 
 }
