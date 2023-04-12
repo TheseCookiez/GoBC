@@ -58,7 +58,6 @@ type block struct {
 func create_block(proposal block, add_to_chain int) block {
 	// Declare variables
 	var new_block block
-	var new_block_Data Information
 	var chain_lenght = len(blockchain)
 
 	/*
@@ -74,21 +73,22 @@ func create_block(proposal block, add_to_chain int) block {
 		break
 	}
 	// Assign the rest of the values
-	new_block_Data.Vehicle_ID = proposal.Data.Vehicle_ID
-	new_block_Data.Vehicle_Manu = proposal.Data.Vehicle_Manu
-	new_block_Data.Vehicle_Model = proposal.Data.Vehicle_Model
-	new_block_Data.Vehicle_State = proposal.Data.Vehicle_State
-	new_block_Data.Owner_ID = proposal.Data.Owner_ID
-	new_block_Data.Passenger_Count = proposal.Data.Passenger_Count
-	new_block_Data.Region = proposal.Data.Region
-	new_block_Data.X_pos = proposal.Data.X_pos
-	new_block_Data.Y_pos = proposal.Data.Y_pos
-	new_block_Data.V_Speed = proposal.Data.V_Speed
+	new_block.Data = Information{
+		proposal.Data.Vehicle_ID,
+		proposal.Data.Vehicle_Manu,
+		proposal.Data.Vehicle_Model,
+		proposal.Data.Vehicle_State,
+		proposal.Data.Owner_ID,
+		proposal.Data.Passenger_Count,
+		proposal.Data.Region,
+		proposal.Data.X_pos,
+		proposal.Data.Y_pos,
+		proposal.Data.V_Speed,
+	}
 
 	// Assign values to Index, Timestamp, Data, Previoushash, and Hash
 	new_block.Index = chain_lenght + 1
 	new_block.Timestamp = time.Now().Format("01/02/2006 15:04:05")
-	new_block.Data = new_block_Data
 	//new_block.Proof = proof_of_work(blockchain[len(blockchain)-1])
 	new_block.Hash.Previoushash = blockchain[chain_lenght-1].Hash.Hash
 
@@ -105,18 +105,33 @@ func create_block(proposal block, add_to_chain int) block {
 	return new_block
 }
 
+// Generate hash and proof of work for the block
 func better_hash(block block) hash_info {
 	var Hash = sha256.New()
-	// Add all the block information to a byte array ********* FIX THIS *********
-	var block_information = []byte(fmt.Sprint(block.Index) + block.Timestamp + fmt.Sprint(block.Data.Vehicle_ID) + block.Data.Vehicle_Manu + block.Data.Vehicle_Model + block.Data.Vehicle_State + fmt.Sprint(block.Data.Owner_ID) + fmt.Sprint(block.Data.Passenger_Count) + block.Data.Region + fmt.Sprint(block.Data.X_pos) + fmt.Sprint(block.Data.Y_pos) + fmt.Sprint(block.Data.V_Speed) + block.Hash.Previoushash)
+	// Add all the block information to a byte array
+	var hash_data = []byte(
+		fmt.Sprint(block.Index) +
+			block.Timestamp +
+			fmt.Sprint(block.Data.Vehicle_ID) +
+			block.Data.Vehicle_Manu +
+			block.Data.Vehicle_Model +
+			block.Data.Vehicle_State +
+			fmt.Sprint(block.Data.Owner_ID) +
+			fmt.Sprint(block.Data.Passenger_Count) +
+			block.Data.Region +
+			fmt.Sprint(block.Data.X_pos) +
+			fmt.Sprint(block.Data.Y_pos) +
+			fmt.Sprint(block.Data.V_Speed) +
+			block.Hash.Previoushash,
+	)
 	var proof = 0
 	var n bool = false
+	// Iterate through the hash until the first 3 characters are 0 and return the hash and proof
 	for !n {
 		proof += 1
-		Hash.Write(block_information)
+		Hash.Write(hash_data)
 		Hash.Write([]byte(fmt.Sprint(proof)))
 		if fmt.Sprintf("%x", Hash.Sum(nil))[:3] == "000" {
-			//fmt.Printf("\nValid proof found!: %d\n", proof)
 			n = true
 		}
 	}
