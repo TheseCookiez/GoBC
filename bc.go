@@ -61,18 +61,18 @@ func create_block(proposal block, add_to_chain int) block {
 	var new_block_Data Information
 	var chain_lenght = len(blockchain)
 
-	// Assign values to sender, Recipient, and Amount
-	// Check if the sender has enough funds to send the Amount
+	/*
+		Verify that the Vehcile_ID and owner_ID are valid
+		Verify that the Vehicle_Manu and Vehicle_Model has not changed
+	*/
 
-	// if balance(sender) < amount {
-	// 	// If the sender does not have enough funds, print an error message and
-	// 	// return the new block without appending it to the blockchain
-	// 	fmt.Printf("Insufficient funds! %s has %d and is trying to send %d\n", sender, balance(sender), amount)
-	// 	return new_block
-	// } else {
-	// 	new_block_Data.Sender = sender
-	// }
-
+	switch verify_data(proposal) {
+	case true:
+		fmt.Println("Data is valid")
+	default:
+		fmt.Println("Data verification failed, block not created")
+		break
+	}
 	// Assign the rest of the values
 	new_block_Data.Vehicle_ID = proposal.Data.Vehicle_ID
 	new_block_Data.Vehicle_Manu = proposal.Data.Vehicle_Manu
@@ -156,22 +156,29 @@ func validate_blockchain() bool {
 }
 
 // Calculate the balance of a sender and verify that the sender has enough funds to send the Amount
-// func balance(sender string) int {
-// 	var balance = 0
-// 	// Iterate through the blockchain
-// 	for i := 0; i < len(blockchain); i++ {
-// 		// Check if the sender is the sender or recipient of the given transaction
-// 		// If the current sender is the sender, subtract the Amount from the balance
-// 		if blockchain[i].Data.Sender == sender {
-// 			balance -= blockchain[i].Data.Amount
-// 		}
-// 		// If the current sender is the recipient, add the Amount to the balance
-// 		if blockchain[i].Data.Recipient == sender {
-// 			balance += blockchain[i].Data.Amount
-// 		}
-// 	}
-// 	return balance
-// }
+func verify_data(proposal block) bool {
+	// Iterate through the blockchain
+	for i := 0; i < len(blockchain); i++ {
+		// Check if the sender is the sender or recipient of the given transaction
+		// If the current sender is the sender, subtract the Amount from the balance
+		if blockchain[i].Data.Vehicle_ID == proposal.Data.Vehicle_ID {
+			if blockchain[i].Data.Owner_ID == proposal.Data.Owner_ID {
+				if blockchain[i].Data.Vehicle_Manu != proposal.Data.Vehicle_Manu {
+					fmt.Println("Vehicle Manufacturer Mismatch")
+					return false
+				}
+				if blockchain[i].Data.Vehicle_Model != proposal.Data.Vehicle_Model {
+					fmt.Println("Vehicle Model Mismatch")
+					return false
+				}
+			} else {
+				fmt.Println("Vehicle Owner Mismatch")
+				return false
+			}
+		}
+	}
+	return true
+}
 
 func genesis_block() {
 	var genesis block
