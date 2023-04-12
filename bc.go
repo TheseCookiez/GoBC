@@ -64,7 +64,6 @@ func create_block(proposal block, add_to_chain int) block {
 		Verify that the Vehcile_ID and owner_ID are valid
 		Verify that the Vehicle_Manu and Vehicle_Model has not changed
 	*/
-
 	switch verify_data(proposal) {
 	case true:
 		fmt.Println("Data is valid")
@@ -89,19 +88,20 @@ func create_block(proposal block, add_to_chain int) block {
 	// Assign values to Index, Timestamp, Data, Previoushash, and Hash
 	new_block.Index = chain_lenght + 1
 	new_block.Timestamp = time.Now().Format("01/02/2006 15:04:05")
-	//new_block.Proof = proof_of_work(blockchain[len(blockchain)-1])
 	new_block.Hash.Previoushash = blockchain[chain_lenght-1].Hash.Hash
 
 	// Calculate the Hash of the new block
-	new_block.Hash.Hash = better_hash(new_block).Hash
-	new_block.Hash.Proof = better_hash(new_block).Proof
+	hashinfo := better_hash(new_block)
+	new_block.Hash.Hash = hashinfo.Hash
+	new_block.Hash.Proof = hashinfo.Proof
 
+	// DEBUG OPTION
 	// Append the new block to the blockchain and save the blockchain to a JSON file
 	if add_to_chain == 1 {
 		blockchain = append(blockchain, new_block)
 		save_blockchain_json()
 	}
-	//validate_blockchain()
+	validate_blockchain()
 	return new_block
 }
 
