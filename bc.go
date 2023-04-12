@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"log"
 	"math/rand"
 	"net/http"
 	"os"
@@ -308,8 +309,17 @@ func main() {
 		}
 	})
 
-	//fmt.Println("Listening on port 8080...")
-	//log.Fatal(http.ListenAndServe(":8080", nil))
-	cli_test()
-
+	args := os.Args[1:]
+	if len(args) < 1 {
+		fmt.Println("\nPlease specify a mode (cli/http) as an argument")
+		os.Exit(1)
+	}
+	switch args[0] {
+	case "cli":
+		fmt.Println("Starting CLI...")
+		cli_test()
+	case "http":
+		fmt.Println("Listening on port 8080...")
+		log.Fatal(http.ListenAndServe(":8080", nil))
+	}
 }
