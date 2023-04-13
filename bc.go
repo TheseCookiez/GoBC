@@ -19,11 +19,12 @@ import (
 
 /*
 TODO:
+- Add network functionality		*DONE*
 - Add a function to check vehicle position and speed is within the bounds (maybe)
 - Add a function to check if the vehicle changes region
 - Add a function to check if the vehicle changes occupancy
 - Add a function to check if the vehicle changes state
-- Add a function to check if the vehicle changes static information (Manufacturer, Model, ID, etc.)
+- Add a function to check if the vehicle changes static information (Manufacturer, Model, ID, etc.)		*DONE*
 */
 
 var blockchain []block
