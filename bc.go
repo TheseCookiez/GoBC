@@ -65,7 +65,7 @@ type block struct {
 	Hash      hash_info   `json:"hash"`
 }
 
-func create_block(proposal block, add_to_chain int) block {
+func create_block(proposal block, add_to_chain int) {
 	// Declare variables
 	var new_block block
 	var chain_lenght = len(blockchain)
@@ -105,7 +105,7 @@ func create_block(proposal block, add_to_chain int) block {
 	new_block.Hash.Hash = hashinfo.Hash
 	new_block.Hash.Proof = hashinfo.Proof
 
-	// DEBUG OPTION
+	// **DEBUG OPTION TO NOT APPEND**
 	// Append the new block to the blockchain and save the blockchain to a JSON file
 	if add_to_chain == 1 {
 		blockchain = append(blockchain, new_block)
@@ -114,8 +114,10 @@ func create_block(proposal block, add_to_chain int) block {
 		fmt.Println("Block not added to chain")
 		fmt.Println(new_block)
 	}
-	validate_blockchain()
-	return new_block
+	// If validation fails, remove the last block from the blockchain
+	if !validate_blockchain() {
+		blockchain = blockchain[:len(blockchain)-1]
+	}
 }
 
 // Generate hash and proof of work for the block
