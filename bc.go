@@ -8,8 +8,11 @@ import (
 	"io/ioutil"
 	"log"
 	"math/rand"
+	"net"
 	"net/http"
 	"os"
+	"strconv"
+	"strings"
 	"text/template"
 	"time"
 )
@@ -24,6 +27,12 @@ TODO:
 */
 
 var blockchain []block
+
+const (
+	HOST = "localhost"
+	PORT = "8080"
+	TYPE = "tcp"
+)
 
 type html_data struct {
 	Title string `json:"title"`
@@ -101,6 +110,9 @@ func create_block(proposal block, add_to_chain int) block {
 	if add_to_chain == 1 {
 		blockchain = append(blockchain, new_block)
 		save_blockchain_json()
+	} else {
+		fmt.Println("Block not added to chain")
+		fmt.Println(new_block)
 	}
 	validate_blockchain()
 	return new_block
@@ -240,6 +252,44 @@ func load_blockchain_json() bool {
 	}
 }
 
+func handleRequest(conn net.Conn) {
+	data := block{}
+	// incoming request
+	for {
+		buffer := make([]byte, 1024)
+		_, err := conn.Read(buffer)
+		if err != nil {
+			log.Fatal(err)
+		}
+		fmt.Println("Received message:", string(buffer))
+
+		words := strings.Fields(string(buffer))
+		Vehicle_ID := words[0]
+		Vehicle_Manu := words[1]
+		Vehicle_Model := words[2]
+		Vehicle_State := words[3]
+		Owner_ID := words[4]
+		Passenger_Count := words[5]
+		Region := words[6]
+		X_pos := words[7]
+		Y_pos := words[8]
+		V_Speed := words[9]
+
+		data.Data.Vehicle_ID, _ = strconv.Atoi(Vehicle_ID)
+		data.Data.Vehicle_Manu = Vehicle_Manu
+		data.Data.Vehicle_Model = Vehicle_Model
+		data.Data.Vehicle_State = Vehicle_State
+		data.Data.Owner_ID, _ = strconv.Atoi(Owner_ID)
+		data.Data.Passenger_Count, _ = strconv.Atoi(Passenger_Count)
+		data.Data.Region = Region
+		data.Data.X_pos, _ = strconv.Atoi(X_pos)
+		data.Data.Y_pos, _ = strconv.Atoi(Y_pos)
+		data.Data.V_Speed, _ = strconv.Atoi(V_Speed)
+
+		create_block(data, 0)
+	}
+}
+
 // CLI test function
 func cli_test() {
 	proposal := block{}
@@ -254,7 +304,7 @@ func cli_test() {
 		proposal.Data.Vehicle_State = "Active"
 		proposal.Data.Owner_ID = rand.Intn(100)
 		proposal.Data.Passenger_Count = rand.Intn(5)
-		proposal.Data.Region = "North America"
+		proposal.Data.Region = "North-America"
 		proposal.Data.X_pos = rand.Intn(100)
 		proposal.Data.Y_pos = rand.Intn(100)
 		proposal.Data.V_Speed = rand.Intn(100)
@@ -311,7 +361,7 @@ func main() {
 
 	args := os.Args[1:]
 	if len(args) < 1 {
-		fmt.Println("\nPlease specify a mode (cli/http) as an argument")
+		fmt.Println("\nPlease specify a mode (cli/http/tcp) as an argument")
 		os.Exit(1)
 	}
 	switch args[0] {
@@ -321,5 +371,22 @@ func main() {
 	case "http":
 		fmt.Println("Listening on port 8080...")
 		log.Fatal(http.ListenAndServe(":8080", nil))
+	case "tcp":
+		listen, err := net.Listen(TYPE, HOST+":"+PORT)
+		if err != nil {
+			log.Fatal(err)
+			os.Exit(1)
+		}
+		fmt.Println("Listening on host " + HOST + " and port " + PORT)
+		// close listener
+		defer listen.Close()
+		for {
+			conn, err := listen.Accept()
+			if err != nil {
+				log.Fatal(err)
+				os.Exit(1)
+			}
+			go handleRequest(conn)
+		}
 	}
 }
