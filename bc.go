@@ -333,7 +333,7 @@ func main() {
 		fmt.Println("\nBlockchain is valid")
 	} else {
 		fmt.Println("\nBlockchain is invalid!")
-
+		os.Exit(1)
 	}
 
 	// HTTP Server Pages
@@ -344,12 +344,12 @@ func main() {
 		t, _ := template.ParseFiles("template.html")
 		t.Execute(w, content)
 	})
-
+	// Display the blockchain
 	http.HandleFunc("/chain", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/json")
 		json.NewEncoder(w).Encode(blockchain)
 	})
-
+	// Run validation
 	http.HandleFunc("/valid", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "text/html")
 		if validate_blockchain() == true {
@@ -359,11 +359,13 @@ func main() {
 		}
 	})
 
+	// Parse command line arguments
 	args := os.Args[1:]
 	if len(args) < 1 {
 		fmt.Println("\nPlease specify a mode (cli/http/tcp) as an argument")
 		os.Exit(1)
 	}
+	// Start the specified mode
 	switch args[0] {
 	case "cli":
 		fmt.Println("Starting CLI...")
