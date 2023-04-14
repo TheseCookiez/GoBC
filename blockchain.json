@@ -61,5 +61,6221 @@
    "previous_hash": "00094a3da5250cee776c0e98624155155b6411472ab7dce07da81e74ac4da4dc",
    "proof": "4428"
   }
+ },
+ {
+  "index": 4,
+  "timestamp": "04/14/2023 17:41:16",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 90,
+   "Y_pos": 52,
+   "V_Speed": 16
+  },
+  "hash": {
+   "hash": "00033d96a349d707cbe0d5c5c232f0acef75aae9bdec1ded36caea4d2a1427ba",
+   "previous_hash": "000f3bcad6aab6f44a5e3954ad413f43d3d02a1fd020e440b354c6ae4774366c",
+   "proof": "1588"
+  }
+ },
+ {
+  "index": 5,
+  "timestamp": "04/14/2023 17:41:17",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 11,
+   "Y_pos": 12,
+   "V_Speed": 31
+  },
+  "hash": {
+   "hash": "0002b657f0f7ac827b5f8af0a0b076982511cea8a39d786cb567a2395b321b43",
+   "previous_hash": "00033d96a349d707cbe0d5c5c232f0acef75aae9bdec1ded36caea4d2a1427ba",
+   "proof": "4"
+  }
+ },
+ {
+  "index": 6,
+  "timestamp": "04/14/2023 17:41:18",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 64,
+   "Y_pos": 6,
+   "V_Speed": 43
+  },
+  "hash": {
+   "hash": "000cf8df19446ecba115de8e36bc3b67b955b2e3e124a25e03ae6bbecd9a321c",
+   "previous_hash": "0002b657f0f7ac827b5f8af0a0b076982511cea8a39d786cb567a2395b321b43",
+   "proof": "423"
+  }
+ },
+ {
+  "index": 7,
+  "timestamp": "04/14/2023 17:41:19",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 33,
+   "Y_pos": 52,
+   "V_Speed": 20
+  },
+  "hash": {
+   "hash": "000aa0a7b0b2f8105fb6e41aa28ffc8cd220efa6d26381a6385a9621cc6e47e5",
+   "previous_hash": "000cf8df19446ecba115de8e36bc3b67b955b2e3e124a25e03ae6bbecd9a321c",
+   "proof": "1451"
+  }
+ },
+ {
+  "index": 8,
+  "timestamp": "04/14/2023 17:41:20",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 94,
+   "Y_pos": 70,
+   "V_Speed": 96
+  },
+  "hash": {
+   "hash": "00049c6965efce8785324d1662f12aa20a12ca89dc3ed8d11d6c74d68c0c6ac8",
+   "previous_hash": "000aa0a7b0b2f8105fb6e41aa28ffc8cd220efa6d26381a6385a9621cc6e47e5",
+   "proof": "739"
+  }
+ },
+ {
+  "index": 9,
+  "timestamp": "04/14/2023 17:41:21",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 6,
+   "Y_pos": 94,
+   "V_Speed": 69
+  },
+  "hash": {
+   "hash": "000dfeb2b38a319504486ea3cc50c99d9a61e1bf1fce33ee29d9f09334f9a712",
+   "previous_hash": "00049c6965efce8785324d1662f12aa20a12ca89dc3ed8d11d6c74d68c0c6ac8",
+   "proof": "2217"
+  }
+ },
+ {
+  "index": 10,
+  "timestamp": "04/14/2023 17:42:46",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 40,
+   "Y_pos": 77,
+   "V_Speed": 92
+  },
+  "hash": {
+   "hash": "000e0a868ea2b2c73b0091492f12f348dfdec38558ea4132fac050864596e823",
+   "previous_hash": "000dfeb2b38a319504486ea3cc50c99d9a61e1bf1fce33ee29d9f09334f9a712",
+   "proof": "694"
+  }
+ },
+ {
+  "index": 11,
+  "timestamp": "04/14/2023 17:42:47",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 36,
+   "Y_pos": 63,
+   "V_Speed": 0
+  },
+  "hash": {
+   "hash": "000da61ecfdd0c45ffb7db7b9cb89579a0883ed0420b4affeaf426e5e9c15a04",
+   "previous_hash": "000e0a868ea2b2c73b0091492f12f348dfdec38558ea4132fac050864596e823",
+   "proof": "9299"
+  }
+ },
+ {
+  "index": 12,
+  "timestamp": "04/14/2023 17:42:48",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 38,
+   "Y_pos": 94,
+   "V_Speed": 5
+  },
+  "hash": {
+   "hash": "000b10fe4cf967f5ea3b42d24d9055baf4764b4ae9da28198a28a56358b2199d",
+   "previous_hash": "000da61ecfdd0c45ffb7db7b9cb89579a0883ed0420b4affeaf426e5e9c15a04",
+   "proof": "804"
+  }
+ },
+ {
+  "index": 13,
+  "timestamp": "04/14/2023 17:42:49",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 88,
+   "Y_pos": 74,
+   "V_Speed": 50
+  },
+  "hash": {
+   "hash": "000630b41ead0bb5449771e0e35aa20725fb7884a6bc430d9bbcc877b753733a",
+   "previous_hash": "000b10fe4cf967f5ea3b42d24d9055baf4764b4ae9da28198a28a56358b2199d",
+   "proof": "2987"
+  }
+ },
+ {
+  "index": 14,
+  "timestamp": "04/14/2023 17:42:50",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 46,
+   "Y_pos": 57,
+   "V_Speed": 32
+  },
+  "hash": {
+   "hash": "0007c1561bbd2be0fb60d34248827a9f9a2b3e77b8671cb233ece40f69a046c6",
+   "previous_hash": "000630b41ead0bb5449771e0e35aa20725fb7884a6bc430d9bbcc877b753733a",
+   "proof": "5818"
+  }
+ },
+ {
+  "index": 15,
+  "timestamp": "04/14/2023 17:42:51",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 57,
+   "Y_pos": 72,
+   "V_Speed": 60
+  },
+  "hash": {
+   "hash": "00044d129fab91b2174705172faf5447a63e53ed8bc148232f884b411d973e68",
+   "previous_hash": "0007c1561bbd2be0fb60d34248827a9f9a2b3e77b8671cb233ece40f69a046c6",
+   "proof": "1445"
+  }
+ },
+ {
+  "index": 16,
+  "timestamp": "04/14/2023 17:42:52",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 61,
+   "Y_pos": 6,
+   "V_Speed": 68
+  },
+  "hash": {
+   "hash": "000dee1a689f2261d56f7c57a2051d58f01a8eb9d43926fe312bf0798ee62d79",
+   "previous_hash": "00044d129fab91b2174705172faf5447a63e53ed8bc148232f884b411d973e68",
+   "proof": "563"
+  }
+ },
+ {
+  "index": 17,
+  "timestamp": "04/14/2023 17:42:53",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 50,
+   "Y_pos": 17,
+   "V_Speed": 8
+  },
+  "hash": {
+   "hash": "0000d05e725f40d456a4c8b176bd0b54d9e0befef90372f0fa63491abaebe3b6",
+   "previous_hash": "000dee1a689f2261d56f7c57a2051d58f01a8eb9d43926fe312bf0798ee62d79",
+   "proof": "2440"
+  }
+ },
+ {
+  "index": 18,
+  "timestamp": "04/14/2023 17:42:54",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 89,
+   "Y_pos": 46,
+   "V_Speed": 96
+  },
+  "hash": {
+   "hash": "0008eecc27ac882260f4af385bb1568f21f9441c71d92759c9aa64b1406b05f5",
+   "previous_hash": "0000d05e725f40d456a4c8b176bd0b54d9e0befef90372f0fa63491abaebe3b6",
+   "proof": "157"
+  }
+ },
+ {
+  "index": 19,
+  "timestamp": "04/14/2023 17:42:55",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 72,
+   "Y_pos": 94,
+   "V_Speed": 13
+  },
+  "hash": {
+   "hash": "000db4a1130174d17ed9094cffd0f34868a570fe4472823a77d74fd8bb98ffa1",
+   "previous_hash": "0008eecc27ac882260f4af385bb1568f21f9441c71d92759c9aa64b1406b05f5",
+   "proof": "3626"
+  }
+ },
+ {
+  "index": 20,
+  "timestamp": "04/14/2023 17:42:56",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 83,
+   "Y_pos": 97,
+   "V_Speed": 39
+  },
+  "hash": {
+   "hash": "0002e95dc2e598e9ef972bb65433fe07adbbf4e0c73821b91484b7661e88fa3c",
+   "previous_hash": "000db4a1130174d17ed9094cffd0f34868a570fe4472823a77d74fd8bb98ffa1",
+   "proof": "6463"
+  }
+ },
+ {
+  "index": 21,
+  "timestamp": "04/14/2023 17:42:57",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 27,
+   "Y_pos": 29,
+   "V_Speed": 78
+  },
+  "hash": {
+   "hash": "000852c39c64a8d1760640c41c2ab3d98a9fa7f57a2618b1d88e6fcc26831e9e",
+   "previous_hash": "0002e95dc2e598e9ef972bb65433fe07adbbf4e0c73821b91484b7661e88fa3c",
+   "proof": "1641"
+  }
+ },
+ {
+  "index": 22,
+  "timestamp": "04/14/2023 17:42:57",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 88,
+   "Y_pos": 80,
+   "V_Speed": 93
+  },
+  "hash": {
+   "hash": "0006a3d3c3d028e4c01f078f557812b7272ebd2b8b83a94d9ada54ead427ff21",
+   "previous_hash": "000852c39c64a8d1760640c41c2ab3d98a9fa7f57a2618b1d88e6fcc26831e9e",
+   "proof": "4443"
+  }
+ },
+ {
+  "index": 23,
+  "timestamp": "04/14/2023 17:42:58",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 1,
+   "Y_pos": 73,
+   "V_Speed": 86
+  },
+  "hash": {
+   "hash": "0002bc1164d211e3111e2d3ce59858cee13e3aaa073cbb2613c6ca759d17d58f",
+   "previous_hash": "0006a3d3c3d028e4c01f078f557812b7272ebd2b8b83a94d9ada54ead427ff21",
+   "proof": "4406"
+  }
+ },
+ {
+  "index": 24,
+  "timestamp": "04/14/2023 17:42:58",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 67,
+   "Y_pos": 57,
+   "V_Speed": 26
+  },
+  "hash": {
+   "hash": "00027fd5b0e6fd9094d95e7598833daa2295edcdd420e8a14e3030b94feebcc3",
+   "previous_hash": "0002bc1164d211e3111e2d3ce59858cee13e3aaa073cbb2613c6ca759d17d58f",
+   "proof": "2641"
+  }
+ },
+ {
+  "index": 25,
+  "timestamp": "04/14/2023 17:42:59",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 56,
+   "Y_pos": 67,
+   "V_Speed": 21
+  },
+  "hash": {
+   "hash": "0008b330b4a1b8b2bca4b0b1cd184482bbcd501a76003df9199629243dbfafbd",
+   "previous_hash": "00027fd5b0e6fd9094d95e7598833daa2295edcdd420e8a14e3030b94feebcc3",
+   "proof": "1621"
+  }
+ },
+ {
+  "index": 26,
+  "timestamp": "04/14/2023 17:42:59",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 97,
+   "Y_pos": 95,
+   "V_Speed": 47
+  },
+  "hash": {
+   "hash": "000bd75b57f9cf38e663be920c803d8d24e5e59ed637730422bea9edfc088f20",
+   "previous_hash": "0008b330b4a1b8b2bca4b0b1cd184482bbcd501a76003df9199629243dbfafbd",
+   "proof": "2038"
+  }
+ },
+ {
+  "index": 27,
+  "timestamp": "04/14/2023 17:43:00",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 2,
+   "Y_pos": 4,
+   "V_Speed": 39
+  },
+  "hash": {
+   "hash": "0005b503cae05cdf9bd12d13f1e6ffc496e4e18ed6cb4e19287e2fed6199fce4",
+   "previous_hash": "000bd75b57f9cf38e663be920c803d8d24e5e59ed637730422bea9edfc088f20",
+   "proof": "6306"
+  }
+ },
+ {
+  "index": 28,
+  "timestamp": "04/14/2023 17:43:00",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 43,
+   "Y_pos": 9,
+   "V_Speed": 51
+  },
+  "hash": {
+   "hash": "0009ca7ff0ce081cf75b60715edc3b01041850f7cca992e008900200a0fabf1e",
+   "previous_hash": "0005b503cae05cdf9bd12d13f1e6ffc496e4e18ed6cb4e19287e2fed6199fce4",
+   "proof": "1960"
+  }
+ },
+ {
+  "index": 29,
+  "timestamp": "04/14/2023 17:43:01",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 36,
+   "Y_pos": 28,
+   "V_Speed": 36
+  },
+  "hash": {
+   "hash": "0000c7b3ae5ca2ba7c83a4c9cf389feb80a2c5d499b0acbb36919564b9d585bc",
+   "previous_hash": "0009ca7ff0ce081cf75b60715edc3b01041850f7cca992e008900200a0fabf1e",
+   "proof": "8044"
+  }
+ },
+ {
+  "index": 30,
+  "timestamp": "04/14/2023 17:43:01",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 94,
+   "Y_pos": 22,
+   "V_Speed": 40
+  },
+  "hash": {
+   "hash": "000840e27e162d290dea5a8841a07319e183fb1325c269573154fd349578ac9d",
+   "previous_hash": "0000c7b3ae5ca2ba7c83a4c9cf389feb80a2c5d499b0acbb36919564b9d585bc",
+   "proof": "545"
+  }
+ },
+ {
+  "index": 31,
+  "timestamp": "04/14/2023 17:43:02",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 5,
+   "Y_pos": 33,
+   "V_Speed": 91
+  },
+  "hash": {
+   "hash": "0002bb78e8074ec6e37139ca4025a22cca2cd450e901f325437f383e05ff2b59",
+   "previous_hash": "000840e27e162d290dea5a8841a07319e183fb1325c269573154fd349578ac9d",
+   "proof": "3123"
+  }
+ },
+ {
+  "index": 32,
+  "timestamp": "04/14/2023 17:43:02",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 34,
+   "Y_pos": 84,
+   "V_Speed": 72
+  },
+  "hash": {
+   "hash": "0004ad65436298f63e8eb6a410270cee657c48f8f7abaf57947a6ee0411d6e7f",
+   "previous_hash": "0002bb78e8074ec6e37139ca4025a22cca2cd450e901f325437f383e05ff2b59",
+   "proof": "2719"
+  }
+ },
+ {
+  "index": 33,
+  "timestamp": "04/14/2023 17:43:03",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 20,
+   "Y_pos": 64,
+   "V_Speed": 18
+  },
+  "hash": {
+   "hash": "00052a79cb87004d3dd79906472a692840f729e70cef7fef7ff34901cd94624f",
+   "previous_hash": "0004ad65436298f63e8eb6a410270cee657c48f8f7abaf57947a6ee0411d6e7f",
+   "proof": "750"
+  }
+ },
+ {
+  "index": 34,
+  "timestamp": "04/14/2023 17:43:03",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 97,
+   "Y_pos": 9,
+   "V_Speed": 58
+  },
+  "hash": {
+   "hash": "000034bdf66c328fae8c6a9c4dd1b28dfd0bf2021ecb042f120e3410b6ae58a4",
+   "previous_hash": "00052a79cb87004d3dd79906472a692840f729e70cef7fef7ff34901cd94624f",
+   "proof": "4984"
+  }
+ },
+ {
+  "index": 35,
+  "timestamp": "04/14/2023 17:43:04",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 9,
+   "Y_pos": 74,
+   "V_Speed": 84
+  },
+  "hash": {
+   "hash": "00040133d66bb5c906a354b4f76e4f010e63e5f946acd2b538428bd2c66507ab",
+   "previous_hash": "000034bdf66c328fae8c6a9c4dd1b28dfd0bf2021ecb042f120e3410b6ae58a4",
+   "proof": "1057"
+  }
+ },
+ {
+  "index": 36,
+  "timestamp": "04/14/2023 17:43:04",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 23,
+   "Y_pos": 65,
+   "V_Speed": 18
+  },
+  "hash": {
+   "hash": "0007753983081d8dcdaf97655acddc299ab5fd8121539bc4b79097606c5aeb29",
+   "previous_hash": "00040133d66bb5c906a354b4f76e4f010e63e5f946acd2b538428bd2c66507ab",
+   "proof": "13914"
+  }
+ },
+ {
+  "index": 37,
+  "timestamp": "04/14/2023 17:43:05",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 8,
+   "Y_pos": 4,
+   "V_Speed": 56
+  },
+  "hash": {
+   "hash": "0004f5c1e54d0597789b92f89b6c639c9e36b7813292e1da5a847d715bf62312",
+   "previous_hash": "0007753983081d8dcdaf97655acddc299ab5fd8121539bc4b79097606c5aeb29",
+   "proof": "6316"
+  }
+ },
+ {
+  "index": 38,
+  "timestamp": "04/14/2023 17:43:05",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 76,
+   "Y_pos": 37,
+   "V_Speed": 4
+  },
+  "hash": {
+   "hash": "000c00b4c3fd46bd21dd04c90b08bf88121156b579b49c99c110b807bd401938",
+   "previous_hash": "0004f5c1e54d0597789b92f89b6c639c9e36b7813292e1da5a847d715bf62312",
+   "proof": "11377"
+  }
+ },
+ {
+  "index": 39,
+  "timestamp": "04/14/2023 17:43:06",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 81,
+   "Y_pos": 29,
+   "V_Speed": 8
+  },
+  "hash": {
+   "hash": "0005a926d92277476443699b6da42bd170ea3dcff0348377b668eb47969155ca",
+   "previous_hash": "000c00b4c3fd46bd21dd04c90b08bf88121156b579b49c99c110b807bd401938",
+   "proof": "1113"
+  }
+ },
+ {
+  "index": 40,
+  "timestamp": "04/14/2023 17:43:06",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 37,
+   "Y_pos": 0,
+   "V_Speed": 46
+  },
+  "hash": {
+   "hash": "0000af6649330161cf31aa31b2f83c369ea5fe280c122611c8ee16d8d76d582b",
+   "previous_hash": "0005a926d92277476443699b6da42bd170ea3dcff0348377b668eb47969155ca",
+   "proof": "1845"
+  }
+ },
+ {
+  "index": 41,
+  "timestamp": "04/14/2023 17:43:07",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 38,
+   "Y_pos": 49,
+   "V_Speed": 20
+  },
+  "hash": {
+   "hash": "000326dcf956b7b9adc9bdb65fe5c1802beecea6c7a7794043706d48df065d35",
+   "previous_hash": "0000af6649330161cf31aa31b2f83c369ea5fe280c122611c8ee16d8d76d582b",
+   "proof": "246"
+  }
+ },
+ {
+  "index": 42,
+  "timestamp": "04/14/2023 17:43:07",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 35,
+   "Y_pos": 92,
+   "V_Speed": 36
+  },
+  "hash": {
+   "hash": "0005b30cdba5f9149d9975caf639fa7842de11d0b441956a0edf178297e183df",
+   "previous_hash": "000326dcf956b7b9adc9bdb65fe5c1802beecea6c7a7794043706d48df065d35",
+   "proof": "83"
+  }
+ },
+ {
+  "index": 43,
+  "timestamp": "04/14/2023 17:43:08",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 9,
+   "Y_pos": 97,
+   "V_Speed": 76
+  },
+  "hash": {
+   "hash": "00068fab462e17623c5a3bbaa1c86f8f198d5606ceba23dcffb8d40d6c6bed8c",
+   "previous_hash": "0005b30cdba5f9149d9975caf639fa7842de11d0b441956a0edf178297e183df",
+   "proof": "2823"
+  }
+ },
+ {
+  "index": 44,
+  "timestamp": "04/14/2023 17:43:08",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 66,
+   "Y_pos": 86,
+   "V_Speed": 67
+  },
+  "hash": {
+   "hash": "000d47b2e7a55845465cd2a09e268eeb18fd8a6683ed2e504fbcc381ee7abb7d",
+   "previous_hash": "00068fab462e17623c5a3bbaa1c86f8f198d5606ceba23dcffb8d40d6c6bed8c",
+   "proof": "5371"
+  }
+ },
+ {
+  "index": 45,
+  "timestamp": "04/14/2023 17:43:09",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 25,
+   "Y_pos": 57,
+   "V_Speed": 8
+  },
+  "hash": {
+   "hash": "000e2438b232e9ba7b59b4baf164853fa500365fab63c0e265eacf4502a21cc7",
+   "previous_hash": "000d47b2e7a55845465cd2a09e268eeb18fd8a6683ed2e504fbcc381ee7abb7d",
+   "proof": "1137"
+  }
+ },
+ {
+  "index": 46,
+  "timestamp": "04/14/2023 17:43:09",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 90,
+   "Y_pos": 35,
+   "V_Speed": 67
+  },
+  "hash": {
+   "hash": "00090df913a5d3a1c803f94b87a19e221b2b16919a6a5acff25e14f55235a037",
+   "previous_hash": "000e2438b232e9ba7b59b4baf164853fa500365fab63c0e265eacf4502a21cc7",
+   "proof": "9772"
+  }
+ },
+ {
+  "index": 47,
+  "timestamp": "04/14/2023 17:43:10",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 48,
+   "Y_pos": 18,
+   "V_Speed": 21
+  },
+  "hash": {
+   "hash": "00097f345183584a6269ffc2715bc203b514af96df4c85a5333abb4fdcc6e368",
+   "previous_hash": "00090df913a5d3a1c803f94b87a19e221b2b16919a6a5acff25e14f55235a037",
+   "proof": "1888"
+  }
+ },
+ {
+  "index": 48,
+  "timestamp": "04/14/2023 17:43:10",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 89,
+   "Y_pos": 17,
+   "V_Speed": 52
+  },
+  "hash": {
+   "hash": "000ef8126f5978d2fffa10b45ecbf550d43d5947b1a12a1dffb500095f7a4846",
+   "previous_hash": "00097f345183584a6269ffc2715bc203b514af96df4c85a5333abb4fdcc6e368",
+   "proof": "879"
+  }
+ },
+ {
+  "index": 49,
+  "timestamp": "04/14/2023 17:43:11",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 26,
+   "Y_pos": 2,
+   "V_Speed": 38
+  },
+  "hash": {
+   "hash": "000519e94c4b7a446ee2188baf5855cd449f557f46ec83b325c9bc624779d454",
+   "previous_hash": "000ef8126f5978d2fffa10b45ecbf550d43d5947b1a12a1dffb500095f7a4846",
+   "proof": "979"
+  }
+ },
+ {
+  "index": 50,
+  "timestamp": "04/14/2023 17:43:11",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 55,
+   "Y_pos": 18,
+   "V_Speed": 24
+  },
+  "hash": {
+   "hash": "000d74600daec86df21bfde38689653d78dd6dcd1f0cc963e9a7df7767f09f0a",
+   "previous_hash": "000519e94c4b7a446ee2188baf5855cd449f557f46ec83b325c9bc624779d454",
+   "proof": "1798"
+  }
+ },
+ {
+  "index": 51,
+  "timestamp": "04/14/2023 17:43:12",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 3,
+   "Y_pos": 42,
+   "V_Speed": 58
+  },
+  "hash": {
+   "hash": "000d876b8a9aa82f007c17d80d952b6e5f396c4a2a19b0a23c12f443126126fc",
+   "previous_hash": "000d74600daec86df21bfde38689653d78dd6dcd1f0cc963e9a7df7767f09f0a",
+   "proof": "707"
+  }
+ },
+ {
+  "index": 52,
+  "timestamp": "04/14/2023 17:43:12",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 46,
+   "Y_pos": 87,
+   "V_Speed": 68
+  },
+  "hash": {
+   "hash": "00071b40f86d0067805afc1d0e044cca477d128ab1cf62a50a26f4eec959fd88",
+   "previous_hash": "000d876b8a9aa82f007c17d80d952b6e5f396c4a2a19b0a23c12f443126126fc",
+   "proof": "8781"
+  }
+ },
+ {
+  "index": 53,
+  "timestamp": "04/14/2023 17:43:13",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 44,
+   "Y_pos": 11,
+   "V_Speed": 89
+  },
+  "hash": {
+   "hash": "00051e624df7d65ab78dc0a3d5f203578e4350ba2532cbb4940fc6d5f3be77d6",
+   "previous_hash": "00071b40f86d0067805afc1d0e044cca477d128ab1cf62a50a26f4eec959fd88",
+   "proof": "1382"
+  }
+ },
+ {
+  "index": 54,
+  "timestamp": "04/14/2023 17:43:13",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 15,
+   "Y_pos": 38,
+   "V_Speed": 80
+  },
+  "hash": {
+   "hash": "00071a60ba5441f3a770fbe6b0d64e262e49ea6adb9152268659d79c8dd793de",
+   "previous_hash": "00051e624df7d65ab78dc0a3d5f203578e4350ba2532cbb4940fc6d5f3be77d6",
+   "proof": "2361"
+  }
+ },
+ {
+  "index": 55,
+  "timestamp": "04/14/2023 17:43:14",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 64,
+   "Y_pos": 38,
+   "V_Speed": 80
+  },
+  "hash": {
+   "hash": "000ced916012c0bc792d6704283a36d14636ea202ce6fbea36be70f6dbf77174",
+   "previous_hash": "00071a60ba5441f3a770fbe6b0d64e262e49ea6adb9152268659d79c8dd793de",
+   "proof": "6277"
+  }
+ },
+ {
+  "index": 56,
+  "timestamp": "04/14/2023 17:43:14",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 30,
+   "Y_pos": 66,
+   "V_Speed": 76
+  },
+  "hash": {
+   "hash": "000689562bca979da038ccfc3534d869bdd67abf4440668b9f1a328e9c59fb0e",
+   "previous_hash": "000ced916012c0bc792d6704283a36d14636ea202ce6fbea36be70f6dbf77174",
+   "proof": "3284"
+  }
+ },
+ {
+  "index": 57,
+  "timestamp": "04/14/2023 17:43:15",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 18,
+   "Y_pos": 48,
+   "V_Speed": 23
+  },
+  "hash": {
+   "hash": "00080097de4ef5bb56afe1d3f95ead97728c2e761453f5273cb55f1238438197",
+   "previous_hash": "000689562bca979da038ccfc3534d869bdd67abf4440668b9f1a328e9c59fb0e",
+   "proof": "1696"
+  }
+ },
+ {
+  "index": 58,
+  "timestamp": "04/14/2023 17:43:15",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 51,
+   "Y_pos": 88,
+   "V_Speed": 83
+  },
+  "hash": {
+   "hash": "00074b9f95e175e66781e07691cdc054e84af55914874bf27753761b3dd3837b",
+   "previous_hash": "00080097de4ef5bb56afe1d3f95ead97728c2e761453f5273cb55f1238438197",
+   "proof": "913"
+  }
+ },
+ {
+  "index": 59,
+  "timestamp": "04/14/2023 17:43:16",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 82,
+   "Y_pos": 44,
+   "V_Speed": 42
+  },
+  "hash": {
+   "hash": "000311be2b530b72fe063f1e07ec36b99bbf7eabc3358a6e16670594062a453a",
+   "previous_hash": "00074b9f95e175e66781e07691cdc054e84af55914874bf27753761b3dd3837b",
+   "proof": "1543"
+  }
+ },
+ {
+  "index": 60,
+  "timestamp": "04/14/2023 17:43:16",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 44,
+   "Y_pos": 96,
+   "V_Speed": 66
+  },
+  "hash": {
+   "hash": "000b5f83fce70353d048c11ced09cc427adf1e80bdb7a31e896e50250c877d51",
+   "previous_hash": "000311be2b530b72fe063f1e07ec36b99bbf7eabc3358a6e16670594062a453a",
+   "proof": "1347"
+  }
+ },
+ {
+  "index": 61,
+  "timestamp": "04/14/2023 17:43:17",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 95,
+   "Y_pos": 15,
+   "V_Speed": 1
+  },
+  "hash": {
+   "hash": "0003cd1e77e71b2a65f07cfea6c270264fb21e8c764d8ba9abc377898c2729aa",
+   "previous_hash": "000b5f83fce70353d048c11ced09cc427adf1e80bdb7a31e896e50250c877d51",
+   "proof": "264"
+  }
+ },
+ {
+  "index": 62,
+  "timestamp": "04/14/2023 17:43:17",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 56,
+   "Y_pos": 92,
+   "V_Speed": 20
+  },
+  "hash": {
+   "hash": "0005ec9c95ab6190e559a66d4f0c5b405aa18618ccb38dcb489e60487a415e4e",
+   "previous_hash": "0003cd1e77e71b2a65f07cfea6c270264fb21e8c764d8ba9abc377898c2729aa",
+   "proof": "14193"
+  }
+ },
+ {
+  "index": 63,
+  "timestamp": "04/14/2023 17:43:18",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 21,
+   "Y_pos": 16,
+   "V_Speed": 78
+  },
+  "hash": {
+   "hash": "0001d118b00542316e6b7221354825a8a01769d629faf2b3225e1584eb9ef67a",
+   "previous_hash": "0005ec9c95ab6190e559a66d4f0c5b405aa18618ccb38dcb489e60487a415e4e",
+   "proof": "1118"
+  }
+ },
+ {
+  "index": 64,
+  "timestamp": "04/14/2023 17:43:18",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 1,
+   "Y_pos": 31,
+   "V_Speed": 3
+  },
+  "hash": {
+   "hash": "000dbf6547dea03deb51937b24ced533dd02a4f6c9d84f1b639176c106cb3157",
+   "previous_hash": "0001d118b00542316e6b7221354825a8a01769d629faf2b3225e1584eb9ef67a",
+   "proof": "2364"
+  }
+ },
+ {
+  "index": 65,
+  "timestamp": "04/14/2023 17:43:19",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 30,
+   "Y_pos": 52,
+   "V_Speed": 93
+  },
+  "hash": {
+   "hash": "0003865d5bd716321fa87da498afe90e20c79a927b4d19607c5b602ec814411b",
+   "previous_hash": "000dbf6547dea03deb51937b24ced533dd02a4f6c9d84f1b639176c106cb3157",
+   "proof": "2359"
+  }
+ },
+ {
+  "index": 66,
+  "timestamp": "04/14/2023 17:43:19",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 5,
+   "Y_pos": 91,
+   "V_Speed": 58
+  },
+  "hash": {
+   "hash": "0005074ce0beada1e17247600b014eb70040920e3989cd5467b315abf4ca9368",
+   "previous_hash": "0003865d5bd716321fa87da498afe90e20c79a927b4d19607c5b602ec814411b",
+   "proof": "7447"
+  }
+ },
+ {
+  "index": 67,
+  "timestamp": "04/14/2023 17:43:20",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 36,
+   "Y_pos": 80,
+   "V_Speed": 56
+  },
+  "hash": {
+   "hash": "000aa82a2082163b86b23b7ccebd8416dc3508bdfb4cac7bccc050237d03f21b",
+   "previous_hash": "0005074ce0beada1e17247600b014eb70040920e3989cd5467b315abf4ca9368",
+   "proof": "4788"
+  }
+ },
+ {
+  "index": 68,
+  "timestamp": "04/14/2023 17:43:20",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 29,
+   "Y_pos": 91,
+   "V_Speed": 57
+  },
+  "hash": {
+   "hash": "000c41e3d09867c5d79755248bdd71632553068fcb8c97442b63342128a42ce9",
+   "previous_hash": "000aa82a2082163b86b23b7ccebd8416dc3508bdfb4cac7bccc050237d03f21b",
+   "proof": "6697"
+  }
+ },
+ {
+  "index": 69,
+  "timestamp": "04/14/2023 17:43:21",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 54,
+   "Y_pos": 48,
+   "V_Speed": 33
+  },
+  "hash": {
+   "hash": "000765236ea215d452aa9c2d129243c511d2153b64a8bdf4d5e8740ce535efe7",
+   "previous_hash": "000c41e3d09867c5d79755248bdd71632553068fcb8c97442b63342128a42ce9",
+   "proof": "1185"
+  }
+ },
+ {
+  "index": 70,
+  "timestamp": "04/14/2023 17:43:21",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 59,
+   "Y_pos": 41,
+   "V_Speed": 7
+  },
+  "hash": {
+   "hash": "0008a2377061549a643b16a4e236f5432d760091dcea5524b49c1e5dc6d12b6f",
+   "previous_hash": "000765236ea215d452aa9c2d129243c511d2153b64a8bdf4d5e8740ce535efe7",
+   "proof": "1134"
+  }
+ },
+ {
+  "index": 71,
+  "timestamp": "04/14/2023 17:43:22",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 58,
+   "Y_pos": 49,
+   "V_Speed": 52
+  },
+  "hash": {
+   "hash": "00010294248e8c14ad75cd252ce775af9e4c0317eccf325c1570b70b6642ca70",
+   "previous_hash": "0008a2377061549a643b16a4e236f5432d760091dcea5524b49c1e5dc6d12b6f",
+   "proof": "460"
+  }
+ },
+ {
+  "index": 72,
+  "timestamp": "04/14/2023 17:43:22",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 66,
+   "Y_pos": 93,
+   "V_Speed": 77
+  },
+  "hash": {
+   "hash": "000308ebb82a1beb2170c8cf1cba4d6cb9b35708cbf5dc233b9be5c7700073bb",
+   "previous_hash": "00010294248e8c14ad75cd252ce775af9e4c0317eccf325c1570b70b6642ca70",
+   "proof": "1912"
+  }
+ },
+ {
+  "index": 73,
+  "timestamp": "04/14/2023 17:43:23",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 12,
+   "Y_pos": 46,
+   "V_Speed": 12
+  },
+  "hash": {
+   "hash": "000c44882f73570f70c156117943ef8ab28e99aeae443e20f8d0a9149365a9bc",
+   "previous_hash": "000308ebb82a1beb2170c8cf1cba4d6cb9b35708cbf5dc233b9be5c7700073bb",
+   "proof": "1518"
+  }
+ },
+ {
+  "index": 74,
+  "timestamp": "04/14/2023 17:43:23",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 17,
+   "Y_pos": 56,
+   "V_Speed": 8
+  },
+  "hash": {
+   "hash": "000abfa1efe2362d91c0f515730fd4ca5745adff13e966cd553f4d8bc75a0e3f",
+   "previous_hash": "000c44882f73570f70c156117943ef8ab28e99aeae443e20f8d0a9149365a9bc",
+   "proof": "4448"
+  }
+ },
+ {
+  "index": 75,
+  "timestamp": "04/14/2023 17:43:23",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 8,
+   "Y_pos": 47,
+   "V_Speed": 99
+  },
+  "hash": {
+   "hash": "000ab84e181745287076166b6a6fa5a82ca52f732d1405c21031a80e07449624",
+   "previous_hash": "000abfa1efe2362d91c0f515730fd4ca5745adff13e966cd553f4d8bc75a0e3f",
+   "proof": "7157"
+  }
+ },
+ {
+  "index": 76,
+  "timestamp": "04/14/2023 17:43:24",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 92,
+   "Y_pos": 1,
+   "V_Speed": 1
+  },
+  "hash": {
+   "hash": "000c61695579a259c1dcca54c17e12f589b3a4f98d39d2f906ec72fcce55f65b",
+   "previous_hash": "000ab84e181745287076166b6a6fa5a82ca52f732d1405c21031a80e07449624",
+   "proof": "7155"
+  }
+ },
+ {
+  "index": 77,
+  "timestamp": "04/14/2023 17:43:24",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 6,
+   "Y_pos": 34,
+   "V_Speed": 51
+  },
+  "hash": {
+   "hash": "00059fc8d5659e9d6bd12f2ae64b7da0dd9d50407df0c4ce6a2906b9f26b8d54",
+   "previous_hash": "000c61695579a259c1dcca54c17e12f589b3a4f98d39d2f906ec72fcce55f65b",
+   "proof": "5993"
+  }
+ },
+ {
+  "index": 78,
+  "timestamp": "04/14/2023 17:43:24",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 49,
+   "Y_pos": 79,
+   "V_Speed": 61
+  },
+  "hash": {
+   "hash": "00016fd8435f093c6834f01d8fa080bdd83718fc39dd88634e2de0940969302c",
+   "previous_hash": "00059fc8d5659e9d6bd12f2ae64b7da0dd9d50407df0c4ce6a2906b9f26b8d54",
+   "proof": "1645"
+  }
+ },
+ {
+  "index": 79,
+  "timestamp": "04/14/2023 17:43:25",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 32,
+   "Y_pos": 91,
+   "V_Speed": 83
+  },
+  "hash": {
+   "hash": "00006a0116945f0c5dbd5c26b1c179737092443ac3ca23856117ecbb69323c3e",
+   "previous_hash": "00016fd8435f093c6834f01d8fa080bdd83718fc39dd88634e2de0940969302c",
+   "proof": "9787"
+  }
+ },
+ {
+  "index": 80,
+  "timestamp": "04/14/2023 17:43:25",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 41,
+   "Y_pos": 12,
+   "V_Speed": 39
+  },
+  "hash": {
+   "hash": "000f33e834c5c80eba87426e4b39eb567dafd75bf3f3901f22300b294b857e87",
+   "previous_hash": "00006a0116945f0c5dbd5c26b1c179737092443ac3ca23856117ecbb69323c3e",
+   "proof": "4802"
+  }
+ },
+ {
+  "index": 81,
+  "timestamp": "04/14/2023 17:43:25",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 50,
+   "Y_pos": 85,
+   "V_Speed": 4
+  },
+  "hash": {
+   "hash": "0000107a2225529af9c0df0fbad67d82f57bbb35ffb1e246f99b23d9521d9e5b",
+   "previous_hash": "000f33e834c5c80eba87426e4b39eb567dafd75bf3f3901f22300b294b857e87",
+   "proof": "9521"
+  }
+ },
+ {
+  "index": 82,
+  "timestamp": "04/14/2023 17:43:26",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 58,
+   "Y_pos": 20,
+   "V_Speed": 1
+  },
+  "hash": {
+   "hash": "000b6c05f84913070c1365d93ec3f6b565ea02f908a873bd951d5b62a6095d6d",
+   "previous_hash": "0000107a2225529af9c0df0fbad67d82f57bbb35ffb1e246f99b23d9521d9e5b",
+   "proof": "2947"
+  }
+ },
+ {
+  "index": 83,
+  "timestamp": "04/14/2023 17:43:26",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 56,
+   "Y_pos": 19,
+   "V_Speed": 82
+  },
+  "hash": {
+   "hash": "0007c367a6e0f170866550ac6d88218ecb2a853356029780b391ed54cef24db8",
+   "previous_hash": "000b6c05f84913070c1365d93ec3f6b565ea02f908a873bd951d5b62a6095d6d",
+   "proof": "8030"
+  }
+ },
+ {
+  "index": 84,
+  "timestamp": "04/14/2023 17:43:26",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 2,
+   "Y_pos": 94,
+   "V_Speed": 94
+  },
+  "hash": {
+   "hash": "0008ef8456206ff2b2523e52572a293178e8288f99840fa5b3687cd513251591",
+   "previous_hash": "0007c367a6e0f170866550ac6d88218ecb2a853356029780b391ed54cef24db8",
+   "proof": "4653"
+  }
+ },
+ {
+  "index": 85,
+  "timestamp": "04/14/2023 17:43:27",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 52,
+   "Y_pos": 70,
+   "V_Speed": 44
+  },
+  "hash": {
+   "hash": "000bf7cbc6d2f710d84bab1040f65ee4cd975e39a43d3637580b933a882b8f89",
+   "previous_hash": "0008ef8456206ff2b2523e52572a293178e8288f99840fa5b3687cd513251591",
+   "proof": "2062"
+  }
+ },
+ {
+  "index": 86,
+  "timestamp": "04/14/2023 17:43:27",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 85,
+   "Y_pos": 1,
+   "V_Speed": 38
+  },
+  "hash": {
+   "hash": "000e1225550dccd232b577decd9df8836a5a13851c12b231f58956bff0cf8c8e",
+   "previous_hash": "000bf7cbc6d2f710d84bab1040f65ee4cd975e39a43d3637580b933a882b8f89",
+   "proof": "11395"
+  }
+ },
+ {
+  "index": 87,
+  "timestamp": "04/14/2023 17:43:27",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 23,
+   "Y_pos": 66,
+   "V_Speed": 68
+  },
+  "hash": {
+   "hash": "0000a6cc85e7d0cc662ce486a1e6eee424e8d99187982dccde9045a7ea0885dd",
+   "previous_hash": "000e1225550dccd232b577decd9df8836a5a13851c12b231f58956bff0cf8c8e",
+   "proof": "4526"
+  }
+ },
+ {
+  "index": 88,
+  "timestamp": "04/14/2023 17:43:28",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 65,
+   "Y_pos": 45,
+   "V_Speed": 68
+  },
+  "hash": {
+   "hash": "000779793482b5f0f3e826d92c2b7d975c1fb256ef3410d3fa03e42ac07e1556",
+   "previous_hash": "0000a6cc85e7d0cc662ce486a1e6eee424e8d99187982dccde9045a7ea0885dd",
+   "proof": "654"
+  }
+ },
+ {
+  "index": 89,
+  "timestamp": "04/14/2023 17:43:28",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 14,
+   "Y_pos": 52,
+   "V_Speed": 39
+  },
+  "hash": {
+   "hash": "0002379285bb32e3fa8f5bd5b52ca166183852482b29440c7280d4c7999d6921",
+   "previous_hash": "000779793482b5f0f3e826d92c2b7d975c1fb256ef3410d3fa03e42ac07e1556",
+   "proof": "1339"
+  }
+ },
+ {
+  "index": 90,
+  "timestamp": "04/14/2023 17:43:28",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 44,
+   "Y_pos": 51,
+   "V_Speed": 14
+  },
+  "hash": {
+   "hash": "0005567bcb28529297b9762fb49c22a3025d30892401eae1b0e463deac13f348",
+   "previous_hash": "0002379285bb32e3fa8f5bd5b52ca166183852482b29440c7280d4c7999d6921",
+   "proof": "2125"
+  }
+ },
+ {
+  "index": 91,
+  "timestamp": "04/14/2023 17:43:29",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 47,
+   "Y_pos": 19,
+   "V_Speed": 27
+  },
+  "hash": {
+   "hash": "000e4c4c521a9e60ed0607f6f94ea158da2f61971f1f463c67ec8284101dc234",
+   "previous_hash": "0005567bcb28529297b9762fb49c22a3025d30892401eae1b0e463deac13f348",
+   "proof": "762"
+  }
+ },
+ {
+  "index": 92,
+  "timestamp": "04/14/2023 17:43:29",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 86,
+   "Y_pos": 11,
+   "V_Speed": 22
+  },
+  "hash": {
+   "hash": "000240023012166140f66caa39d6e5a7db3a6ef420c14bfadbd4a4d7da45507c",
+   "previous_hash": "000e4c4c521a9e60ed0607f6f94ea158da2f61971f1f463c67ec8284101dc234",
+   "proof": "510"
+  }
+ },
+ {
+  "index": 93,
+  "timestamp": "04/14/2023 17:43:29",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 53,
+   "Y_pos": 3,
+   "V_Speed": 0
+  },
+  "hash": {
+   "hash": "000fd0c9029035527c934979ce302e4dae3cfbd5d50060b64a8867ad677ec3b0",
+   "previous_hash": "000240023012166140f66caa39d6e5a7db3a6ef420c14bfadbd4a4d7da45507c",
+   "proof": "556"
+  }
+ },
+ {
+  "index": 94,
+  "timestamp": "04/14/2023 17:43:30",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 32,
+   "Y_pos": 0,
+   "V_Speed": 10
+  },
+  "hash": {
+   "hash": "0005ab9137d7e2d3aafb87e5a560015b7976bf4d2467e8a911aa4f20a6aead56",
+   "previous_hash": "000fd0c9029035527c934979ce302e4dae3cfbd5d50060b64a8867ad677ec3b0",
+   "proof": "80"
+  }
+ },
+ {
+  "index": 95,
+  "timestamp": "04/14/2023 17:43:30",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 59,
+   "Y_pos": 89,
+   "V_Speed": 98
+  },
+  "hash": {
+   "hash": "0005c9c0313fa76131bdf9717eacb8b8a87e681aecb680b716acb2ce2f0cc04b",
+   "previous_hash": "0005ab9137d7e2d3aafb87e5a560015b7976bf4d2467e8a911aa4f20a6aead56",
+   "proof": "2962"
+  }
+ },
+ {
+  "index": 96,
+  "timestamp": "04/14/2023 17:43:30",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 70,
+   "Y_pos": 86,
+   "V_Speed": 93
+  },
+  "hash": {
+   "hash": "00044a06c70fc5b5aeb00e45f253eb6190a4462eed01f1ba6a990fac45a14f37",
+   "previous_hash": "0005c9c0313fa76131bdf9717eacb8b8a87e681aecb680b716acb2ce2f0cc04b",
+   "proof": "1695"
+  }
+ },
+ {
+  "index": 97,
+  "timestamp": "04/14/2023 17:43:31",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 58,
+   "Y_pos": 64,
+   "V_Speed": 5
+  },
+  "hash": {
+   "hash": "000625916310cefc2e2384fd2a059a190ed6d087fe4a3cfa86b8f44f72592293",
+   "previous_hash": "00044a06c70fc5b5aeb00e45f253eb6190a4462eed01f1ba6a990fac45a14f37",
+   "proof": "1923"
+  }
+ },
+ {
+  "index": 98,
+  "timestamp": "04/14/2023 17:43:31",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 58,
+   "Y_pos": 81,
+   "V_Speed": 39
+  },
+  "hash": {
+   "hash": "000bfb6e2ed37fa6d645f771a596e770709f4111532d62761a9eb12fd6d7d022",
+   "previous_hash": "000625916310cefc2e2384fd2a059a190ed6d087fe4a3cfa86b8f44f72592293",
+   "proof": "9893"
+  }
+ },
+ {
+  "index": 99,
+  "timestamp": "04/14/2023 17:43:31",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 30,
+   "Y_pos": 87,
+   "V_Speed": 49
+  },
+  "hash": {
+   "hash": "000652884838205b97ad8dfe256fae6cebfa3a24a44c1d4662ab7772220c7360",
+   "previous_hash": "000bfb6e2ed37fa6d645f771a596e770709f4111532d62761a9eb12fd6d7d022",
+   "proof": "2833"
+  }
+ },
+ {
+  "index": 100,
+  "timestamp": "04/14/2023 17:43:32",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 5,
+   "Y_pos": 29,
+   "V_Speed": 8
+  },
+  "hash": {
+   "hash": "0003a55b3cd992953a2c07273007f6cf639f9afdfb3f7925d9e7ee240d186104",
+   "previous_hash": "000652884838205b97ad8dfe256fae6cebfa3a24a44c1d4662ab7772220c7360",
+   "proof": "108"
+  }
+ },
+ {
+  "index": 101,
+  "timestamp": "04/14/2023 17:43:32",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 65,
+   "Y_pos": 57,
+   "V_Speed": 75
+  },
+  "hash": {
+   "hash": "000b3fc879581ce8f7bd81c0c358d1b2961d0e03ae35a26d30827c7ef4a8be3b",
+   "previous_hash": "0003a55b3cd992953a2c07273007f6cf639f9afdfb3f7925d9e7ee240d186104",
+   "proof": "7415"
+  }
+ },
+ {
+  "index": 102,
+  "timestamp": "04/14/2023 17:43:32",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 96,
+   "Y_pos": 26,
+   "V_Speed": 46
+  },
+  "hash": {
+   "hash": "0006d280f5597edd43d9e7136d0cd1f28a913ea253b47088b416fd1d5c6b216f",
+   "previous_hash": "000b3fc879581ce8f7bd81c0c358d1b2961d0e03ae35a26d30827c7ef4a8be3b",
+   "proof": "1215"
+  }
+ },
+ {
+  "index": 103,
+  "timestamp": "04/14/2023 17:43:33",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 34,
+   "Y_pos": 84,
+   "V_Speed": 0
+  },
+  "hash": {
+   "hash": "000ff66e84e2f9938e368198ee6448d6c450bed89dc86965e63b70ca47dd10bc",
+   "previous_hash": "0006d280f5597edd43d9e7136d0cd1f28a913ea253b47088b416fd1d5c6b216f",
+   "proof": "1395"
+  }
+ },
+ {
+  "index": 104,
+  "timestamp": "04/14/2023 17:43:33",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 6,
+   "Y_pos": 32,
+   "V_Speed": 94
+  },
+  "hash": {
+   "hash": "0008799c2d7c9d2f9bd64a5c8f964f4f988adbf14c367c25b5555ada8e218a8e",
+   "previous_hash": "000ff66e84e2f9938e368198ee6448d6c450bed89dc86965e63b70ca47dd10bc",
+   "proof": "10331"
+  }
+ },
+ {
+  "index": 105,
+  "timestamp": "04/14/2023 17:43:33",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 99,
+   "Y_pos": 35,
+   "V_Speed": 83
+  },
+  "hash": {
+   "hash": "00099f7eff4c7d3730bf83ec406806eb1ac33d0b3663689f7d0de0c89d9148f4",
+   "previous_hash": "0008799c2d7c9d2f9bd64a5c8f964f4f988adbf14c367c25b5555ada8e218a8e",
+   "proof": "4290"
+  }
+ },
+ {
+  "index": 106,
+  "timestamp": "04/14/2023 17:43:34",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 57,
+   "Y_pos": 77,
+   "V_Speed": 89
+  },
+  "hash": {
+   "hash": "000d5eb272fa173bdb841a1d267097030f1126746e29298b4bb873cbe9397fa6",
+   "previous_hash": "00099f7eff4c7d3730bf83ec406806eb1ac33d0b3663689f7d0de0c89d9148f4",
+   "proof": "3574"
+  }
+ },
+ {
+  "index": 107,
+  "timestamp": "04/14/2023 17:43:34",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 12,
+   "Y_pos": 38,
+   "V_Speed": 98
+  },
+  "hash": {
+   "hash": "0003bd680e21c1a390f7d0f3bbcacb3577eeaabfbfab0bc92b495d0dc425e4e5",
+   "previous_hash": "000d5eb272fa173bdb841a1d267097030f1126746e29298b4bb873cbe9397fa6",
+   "proof": "1195"
+  }
+ },
+ {
+  "index": 108,
+  "timestamp": "04/14/2023 17:43:34",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 63,
+   "Y_pos": 35,
+   "V_Speed": 54
+  },
+  "hash": {
+   "hash": "000f17f6a4586a4a21633bac8be274f97a422c55fa0b8d9df46d0f4c01a7c100",
+   "previous_hash": "0003bd680e21c1a390f7d0f3bbcacb3577eeaabfbfab0bc92b495d0dc425e4e5",
+   "proof": "4624"
+  }
+ },
+ {
+  "index": 109,
+  "timestamp": "04/14/2023 17:43:35",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 3,
+   "Y_pos": 0,
+   "V_Speed": 2
+  },
+  "hash": {
+   "hash": "000aa65eace297bdbf5dc8f5285cb240008222dd66ab9bece0c1d2c5906c5b04",
+   "previous_hash": "000f17f6a4586a4a21633bac8be274f97a422c55fa0b8d9df46d0f4c01a7c100",
+   "proof": "7100"
+  }
+ },
+ {
+  "index": 110,
+  "timestamp": "04/14/2023 17:43:35",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 88,
+   "Y_pos": 83,
+   "V_Speed": 20
+  },
+  "hash": {
+   "hash": "000f96f4ea7b9f7315d61eac75a9977b4b6fe9a47d832a7fcff967461089a1e0",
+   "previous_hash": "000aa65eace297bdbf5dc8f5285cb240008222dd66ab9bece0c1d2c5906c5b04",
+   "proof": "3796"
+  }
+ },
+ {
+  "index": 111,
+  "timestamp": "04/14/2023 17:43:35",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 94,
+   "Y_pos": 52,
+   "V_Speed": 79
+  },
+  "hash": {
+   "hash": "000de1dc646ec7c068eb1b6cf8fdb7ef8323d68fe9032f5c9a6ac04087ff48c8",
+   "previous_hash": "000f96f4ea7b9f7315d61eac75a9977b4b6fe9a47d832a7fcff967461089a1e0",
+   "proof": "941"
+  }
+ },
+ {
+  "index": 112,
+  "timestamp": "04/14/2023 17:43:36",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 54,
+   "Y_pos": 46,
+   "V_Speed": 42
+  },
+  "hash": {
+   "hash": "000f4122e16807352fd6680ecd185f69333500ae207dad2b3ed456b580e556d6",
+   "previous_hash": "000de1dc646ec7c068eb1b6cf8fdb7ef8323d68fe9032f5c9a6ac04087ff48c8",
+   "proof": "6024"
+  }
+ },
+ {
+  "index": 113,
+  "timestamp": "04/14/2023 17:43:36",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 26,
+   "Y_pos": 75,
+   "V_Speed": 9
+  },
+  "hash": {
+   "hash": "000a1a9bf4780d5f057fef3d6a6af19340ff9370f5105d56f2852684216847ec",
+   "previous_hash": "000f4122e16807352fd6680ecd185f69333500ae207dad2b3ed456b580e556d6",
+   "proof": "5021"
+  }
+ },
+ {
+  "index": 114,
+  "timestamp": "04/14/2023 17:43:36",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 34,
+   "Y_pos": 95,
+   "V_Speed": 80
+  },
+  "hash": {
+   "hash": "00022c0650426f4b03d5454a679eb3ceb88c4beb00dc879497465726294f2f39",
+   "previous_hash": "000a1a9bf4780d5f057fef3d6a6af19340ff9370f5105d56f2852684216847ec",
+   "proof": "676"
+  }
+ },
+ {
+  "index": 115,
+  "timestamp": "04/14/2023 17:43:37",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 26,
+   "Y_pos": 66,
+   "V_Speed": 87
+  },
+  "hash": {
+   "hash": "0004b97a71a9b7e0eaf91c6b4d261552929bf694a1bad59301e6746e7b775d02",
+   "previous_hash": "00022c0650426f4b03d5454a679eb3ceb88c4beb00dc879497465726294f2f39",
+   "proof": "886"
+  }
+ },
+ {
+  "index": 116,
+  "timestamp": "04/14/2023 17:43:37",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 74,
+   "Y_pos": 21,
+   "V_Speed": 9
+  },
+  "hash": {
+   "hash": "000f806ab0c775b29c565d836655b31650077f76f1b9568de56bb0a94044e927",
+   "previous_hash": "0004b97a71a9b7e0eaf91c6b4d261552929bf694a1bad59301e6746e7b775d02",
+   "proof": "294"
+  }
+ },
+ {
+  "index": 117,
+  "timestamp": "04/14/2023 17:43:37",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 69,
+   "Y_pos": 33,
+   "V_Speed": 59
+  },
+  "hash": {
+   "hash": "0004fb9a925c2109bd6887be5e6c44a510c06871c27815a2f8929b1cd3905a46",
+   "previous_hash": "000f806ab0c775b29c565d836655b31650077f76f1b9568de56bb0a94044e927",
+   "proof": "718"
+  }
+ },
+ {
+  "index": 118,
+  "timestamp": "04/14/2023 17:43:38",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 86,
+   "Y_pos": 19,
+   "V_Speed": 83
+  },
+  "hash": {
+   "hash": "0009139007e24a7e506250ee8e8cac266a72d44444d2e123bf6cf6b98d823519",
+   "previous_hash": "0004fb9a925c2109bd6887be5e6c44a510c06871c27815a2f8929b1cd3905a46",
+   "proof": "1457"
+  }
+ },
+ {
+  "index": 119,
+  "timestamp": "04/14/2023 17:43:38",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 75,
+   "Y_pos": 61,
+   "V_Speed": 38
+  },
+  "hash": {
+   "hash": "000e9bf013fa16b9ac614629a175ed158397abc80df20755fced34b84b8142e3",
+   "previous_hash": "0009139007e24a7e506250ee8e8cac266a72d44444d2e123bf6cf6b98d823519",
+   "proof": "462"
+  }
+ },
+ {
+  "index": 120,
+  "timestamp": "04/14/2023 17:43:38",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 80,
+   "Y_pos": 67,
+   "V_Speed": 48
+  },
+  "hash": {
+   "hash": "000b4ed556a64da02f1384f311d686a4be999d3102e0fce08855dce600230904",
+   "previous_hash": "000e9bf013fa16b9ac614629a175ed158397abc80df20755fced34b84b8142e3",
+   "proof": "16796"
+  }
+ },
+ {
+  "index": 121,
+  "timestamp": "04/14/2023 17:43:39",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 83,
+   "Y_pos": 24,
+   "V_Speed": 49
+  },
+  "hash": {
+   "hash": "000015b791ddf0f788146d2954208659813f9093a13b13bc0f78630d1f0cbe21",
+   "previous_hash": "000b4ed556a64da02f1384f311d686a4be999d3102e0fce08855dce600230904",
+   "proof": "12060"
+  }
+ },
+ {
+  "index": 122,
+  "timestamp": "04/14/2023 17:43:39",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 41,
+   "Y_pos": 5,
+   "V_Speed": 62
+  },
+  "hash": {
+   "hash": "000e944e3629db4edd7f7275657b2e2cc1b94bfcb7b5b8b02e361bd00791d482",
+   "previous_hash": "000015b791ddf0f788146d2954208659813f9093a13b13bc0f78630d1f0cbe21",
+   "proof": "4414"
+  }
+ },
+ {
+  "index": 123,
+  "timestamp": "04/14/2023 17:43:39",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 72,
+   "Y_pos": 83,
+   "V_Speed": 81
+  },
+  "hash": {
+   "hash": "0000768cdaac13a2ce9620199077a9b764bf317cf12af9207467e9db8b8e28af",
+   "previous_hash": "000e944e3629db4edd7f7275657b2e2cc1b94bfcb7b5b8b02e361bd00791d482",
+   "proof": "5465"
+  }
+ },
+ {
+  "index": 124,
+  "timestamp": "04/14/2023 17:43:40",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 88,
+   "Y_pos": 22,
+   "V_Speed": 74
+  },
+  "hash": {
+   "hash": "00082aa4da8ec6943defa2f81d3de0cca91dfec642de91f5cc6a35b7e219976a",
+   "previous_hash": "0000768cdaac13a2ce9620199077a9b764bf317cf12af9207467e9db8b8e28af",
+   "proof": "1326"
+  }
+ },
+ {
+  "index": 125,
+  "timestamp": "04/14/2023 17:43:40",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 21,
+   "Y_pos": 74,
+   "V_Speed": 23
+  },
+  "hash": {
+   "hash": "000704daf23b300360baa93d237ef38f3dbaf4e415516cd1b8bf7120dba78eeb",
+   "previous_hash": "00082aa4da8ec6943defa2f81d3de0cca91dfec642de91f5cc6a35b7e219976a",
+   "proof": "9832"
+  }
+ },
+ {
+  "index": 126,
+  "timestamp": "04/14/2023 17:43:40",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 80,
+   "Y_pos": 89,
+   "V_Speed": 73
+  },
+  "hash": {
+   "hash": "0008cc574cb6420000daafb39e534c911619eec8b1582ad91c0a6c0537e37b65",
+   "previous_hash": "000704daf23b300360baa93d237ef38f3dbaf4e415516cd1b8bf7120dba78eeb",
+   "proof": "6497"
+  }
+ },
+ {
+  "index": 127,
+  "timestamp": "04/14/2023 17:43:41",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 61,
+   "Y_pos": 99,
+   "V_Speed": 49
+  },
+  "hash": {
+   "hash": "0000bcb49fc86b086f4897c9b35ed5e3dab99b65dbc97d20b6a0863d38ac8731",
+   "previous_hash": "0008cc574cb6420000daafb39e534c911619eec8b1582ad91c0a6c0537e37b65",
+   "proof": "626"
+  }
+ },
+ {
+  "index": 128,
+  "timestamp": "04/14/2023 17:43:41",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 7,
+   "Y_pos": 37,
+   "V_Speed": 18
+  },
+  "hash": {
+   "hash": "0001060e587b84bc9b107a192fdbc047d1c6a4fc257125e98cef7c3823786fec",
+   "previous_hash": "0000bcb49fc86b086f4897c9b35ed5e3dab99b65dbc97d20b6a0863d38ac8731",
+   "proof": "9426"
+  }
+ },
+ {
+  "index": 129,
+  "timestamp": "04/14/2023 17:43:41",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 57,
+   "Y_pos": 33,
+   "V_Speed": 13
+  },
+  "hash": {
+   "hash": "000bc91368c81c4889ddf292ed84170ac9db823a3af1b8207b8f3ae6c1656144",
+   "previous_hash": "0001060e587b84bc9b107a192fdbc047d1c6a4fc257125e98cef7c3823786fec",
+   "proof": "3829"
+  }
+ },
+ {
+  "index": 130,
+  "timestamp": "04/14/2023 17:43:42",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 90,
+   "Y_pos": 16,
+   "V_Speed": 65
+  },
+  "hash": {
+   "hash": "000876a317dc23b2c666335eb407d8b5369fb01e1ac68945b98e99acb042ce42",
+   "previous_hash": "000bc91368c81c4889ddf292ed84170ac9db823a3af1b8207b8f3ae6c1656144",
+   "proof": "3845"
+  }
+ },
+ {
+  "index": 131,
+  "timestamp": "04/14/2023 17:43:42",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 65,
+   "Y_pos": 88,
+   "V_Speed": 66
+  },
+  "hash": {
+   "hash": "00072c7daf8a9410ee0bbdc8a0cc6f40671e83eacec4f554a1cfa81a61b064d8",
+   "previous_hash": "000876a317dc23b2c666335eb407d8b5369fb01e1ac68945b98e99acb042ce42",
+   "proof": "23"
+  }
+ },
+ {
+  "index": 132,
+  "timestamp": "04/14/2023 17:43:42",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 55,
+   "Y_pos": 78,
+   "V_Speed": 2
+  },
+  "hash": {
+   "hash": "0003493d0f3036a549e3d436d91c09f863a041ae8062d949a4272a945a94d37e",
+   "previous_hash": "00072c7daf8a9410ee0bbdc8a0cc6f40671e83eacec4f554a1cfa81a61b064d8",
+   "proof": "820"
+  }
+ },
+ {
+  "index": 133,
+  "timestamp": "04/14/2023 17:43:43",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 96,
+   "Y_pos": 89,
+   "V_Speed": 70
+  },
+  "hash": {
+   "hash": "0008a48c41cd21eb91b9dc9bbae8c1b1bba6c1dfb72c01fa4598a0d84fed58d5",
+   "previous_hash": "0003493d0f3036a549e3d436d91c09f863a041ae8062d949a4272a945a94d37e",
+   "proof": "9550"
+  }
+ },
+ {
+  "index": 134,
+  "timestamp": "04/14/2023 17:56:30",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 67,
+   "Y_pos": 51,
+   "V_Speed": 91
+  },
+  "hash": {
+   "hash": "000455de6f547f94579af5a8e73e04a5a42f99a1bab1c374c3977b66175235ba",
+   "previous_hash": "0008a48c41cd21eb91b9dc9bbae8c1b1bba6c1dfb72c01fa4598a0d84fed58d5",
+   "proof": "3576"
+  }
+ },
+ {
+  "index": 135,
+  "timestamp": "04/14/2023 17:56:31",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 72,
+   "Y_pos": 0,
+   "V_Speed": 73
+  },
+  "hash": {
+   "hash": "000634b7e051bad24404c9a61cdf356c44ea702b2af83a10e34a88d41ff0eaf5",
+   "previous_hash": "000455de6f547f94579af5a8e73e04a5a42f99a1bab1c374c3977b66175235ba",
+   "proof": "5800"
+  }
+ },
+ {
+  "index": 136,
+  "timestamp": "04/14/2023 17:56:31",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 55,
+   "Y_pos": 32,
+   "V_Speed": 46
+  },
+  "hash": {
+   "hash": "000266a90be43023e538e1e5ef87e4fe1f13db89172623f640d020f039351b5b",
+   "previous_hash": "000634b7e051bad24404c9a61cdf356c44ea702b2af83a10e34a88d41ff0eaf5",
+   "proof": "1350"
+  }
+ },
+ {
+  "index": 137,
+  "timestamp": "04/14/2023 17:56:31",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 19,
+   "Y_pos": 58,
+   "V_Speed": 41
+  },
+  "hash": {
+   "hash": "0002f07d3492298beba62b005bf2274b4b772e7656936684fa1a399723a7881c",
+   "previous_hash": "000266a90be43023e538e1e5ef87e4fe1f13db89172623f640d020f039351b5b",
+   "proof": "3914"
+  }
+ },
+ {
+  "index": 138,
+  "timestamp": "04/14/2023 17:56:32",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 71,
+   "Y_pos": 25,
+   "V_Speed": 98
+  },
+  "hash": {
+   "hash": "000a16288c026ade7b15d47ea8545dff23348deb76f13266cf5f94219fb3fbc2",
+   "previous_hash": "0002f07d3492298beba62b005bf2274b4b772e7656936684fa1a399723a7881c",
+   "proof": "1235"
+  }
+ },
+ {
+  "index": 139,
+  "timestamp": "04/14/2023 17:56:32",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 33,
+   "Y_pos": 44,
+   "V_Speed": 41
+  },
+  "hash": {
+   "hash": "0002dcc8546d0a9f25ef526b8409a769834b600a66e67b96dd7591ca0d3ed9e9",
+   "previous_hash": "000a16288c026ade7b15d47ea8545dff23348deb76f13266cf5f94219fb3fbc2",
+   "proof": "4832"
+  }
+ },
+ {
+  "index": 140,
+  "timestamp": "04/14/2023 17:56:32",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 45,
+   "Y_pos": 2,
+   "V_Speed": 43
+  },
+  "hash": {
+   "hash": "000a19f9d8951bc470b8f04e4f7500fc013d72a3e56ee4605b2c85e1d534794d",
+   "previous_hash": "0002dcc8546d0a9f25ef526b8409a769834b600a66e67b96dd7591ca0d3ed9e9",
+   "proof": "4260"
+  }
+ },
+ {
+  "index": 141,
+  "timestamp": "04/14/2023 17:56:33",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 90,
+   "Y_pos": 74,
+   "V_Speed": 85
+  },
+  "hash": {
+   "hash": "00063fcaa771fbac1e5cc4b31b72a2960e761742bf0e396af046a36ec961c959",
+   "previous_hash": "000a19f9d8951bc470b8f04e4f7500fc013d72a3e56ee4605b2c85e1d534794d",
+   "proof": "4802"
+  }
+ },
+ {
+  "index": 142,
+  "timestamp": "04/14/2023 17:56:33",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 79,
+   "Y_pos": 76,
+   "V_Speed": 17
+  },
+  "hash": {
+   "hash": "0002fdf5fe9e2a2365969c3e127be86a0873021dd4abe4c6063ca20090c9c792",
+   "previous_hash": "00063fcaa771fbac1e5cc4b31b72a2960e761742bf0e396af046a36ec961c959",
+   "proof": "890"
+  }
+ },
+ {
+  "index": 143,
+  "timestamp": "04/14/2023 17:56:33",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 50,
+   "Y_pos": 68,
+   "V_Speed": 48
+  },
+  "hash": {
+   "hash": "000e2d42389ffe204a128700dbb9dfb34de2b9bc3a42ab31c9127ff561533bd5",
+   "previous_hash": "0002fdf5fe9e2a2365969c3e127be86a0873021dd4abe4c6063ca20090c9c792",
+   "proof": "1732"
+  }
+ },
+ {
+  "index": 144,
+  "timestamp": "04/14/2023 17:56:34",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 97,
+   "Y_pos": 89,
+   "V_Speed": 20
+  },
+  "hash": {
+   "hash": "000eb4c924c0e42e0b6448488426740dced9c372d854182ff32d90835c29594b",
+   "previous_hash": "000e2d42389ffe204a128700dbb9dfb34de2b9bc3a42ab31c9127ff561533bd5",
+   "proof": "6384"
+  }
+ },
+ {
+  "index": 145,
+  "timestamp": "04/14/2023 17:56:34",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 27,
+   "Y_pos": 9,
+   "V_Speed": 99
+  },
+  "hash": {
+   "hash": "00016f9348335646672ee31197c19eb62afb7b6181a347bfe715744ea80618e2",
+   "previous_hash": "000eb4c924c0e42e0b6448488426740dced9c372d854182ff32d90835c29594b",
+   "proof": "3780"
+  }
+ },
+ {
+  "index": 146,
+  "timestamp": "04/14/2023 17:56:34",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 54,
+   "Y_pos": 65,
+   "V_Speed": 97
+  },
+  "hash": {
+   "hash": "000b528a603f754222826380e6cf1c507785f0da7999b56f27457744c6ad5266",
+   "previous_hash": "00016f9348335646672ee31197c19eb62afb7b6181a347bfe715744ea80618e2",
+   "proof": "89"
+  }
+ },
+ {
+  "index": 147,
+  "timestamp": "04/14/2023 17:56:35",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 1,
+   "Y_pos": 39,
+   "V_Speed": 71
+  },
+  "hash": {
+   "hash": "00021d2ddfd57c26be7186dd783085cf6d41e6c6687591fad72fcbf5e4b1e9a0",
+   "previous_hash": "000b528a603f754222826380e6cf1c507785f0da7999b56f27457744c6ad5266",
+   "proof": "73"
+  }
+ },
+ {
+  "index": 148,
+  "timestamp": "04/14/2023 17:56:35",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 81,
+   "Y_pos": 42,
+   "V_Speed": 99
+  },
+  "hash": {
+   "hash": "00021236c247c833f9c440383f09355657361697a57ba3536d0ff534dd369f1e",
+   "previous_hash": "00021d2ddfd57c26be7186dd783085cf6d41e6c6687591fad72fcbf5e4b1e9a0",
+   "proof": "101"
+  }
+ },
+ {
+  "index": 149,
+  "timestamp": "04/14/2023 17:56:35",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 11,
+   "Y_pos": 70,
+   "V_Speed": 82
+  },
+  "hash": {
+   "hash": "000dde176160b0a7998f1bedc27ac2c8c1c7c4edfbf6f2d92a9ce6d7f7d75ebb",
+   "previous_hash": "00021236c247c833f9c440383f09355657361697a57ba3536d0ff534dd369f1e",
+   "proof": "5901"
+  }
+ },
+ {
+  "index": 150,
+  "timestamp": "04/14/2023 17:56:36",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 62,
+   "Y_pos": 51,
+   "V_Speed": 76
+  },
+  "hash": {
+   "hash": "000d5dd65d5b972077225cb5ab276b77321531ebdf6dc96ed58b5d9d9ea7a64e",
+   "previous_hash": "000dde176160b0a7998f1bedc27ac2c8c1c7c4edfbf6f2d92a9ce6d7f7d75ebb",
+   "proof": "968"
+  }
+ },
+ {
+  "index": 151,
+  "timestamp": "04/14/2023 17:56:36",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 63,
+   "Y_pos": 79,
+   "V_Speed": 96
+  },
+  "hash": {
+   "hash": "0009b7f2e142bef37726dff60fd16dec7fda8d94ba698e1cf67eb9e9d0d25af5",
+   "previous_hash": "000d5dd65d5b972077225cb5ab276b77321531ebdf6dc96ed58b5d9d9ea7a64e",
+   "proof": "1468"
+  }
+ },
+ {
+  "index": 152,
+  "timestamp": "04/14/2023 17:56:36",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 83,
+   "Y_pos": 31,
+   "V_Speed": 98
+  },
+  "hash": {
+   "hash": "000d6a3c0eecad0b1bbc180dce978115d21b39b0d0e9aae2f5218fd972e4d876",
+   "previous_hash": "0009b7f2e142bef37726dff60fd16dec7fda8d94ba698e1cf67eb9e9d0d25af5",
+   "proof": "2761"
+  }
+ },
+ {
+  "index": 153,
+  "timestamp": "04/14/2023 17:56:37",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 62,
+   "Y_pos": 81,
+   "V_Speed": 0
+  },
+  "hash": {
+   "hash": "0005754e61bc22c1887d6c0c737483e2c73ff515a1cf234f8ace0b2ef224aa17",
+   "previous_hash": "000d6a3c0eecad0b1bbc180dce978115d21b39b0d0e9aae2f5218fd972e4d876",
+   "proof": "5412"
+  }
+ },
+ {
+  "index": 154,
+  "timestamp": "04/14/2023 17:56:37",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 2,
+   "Y_pos": 91,
+   "V_Speed": 86
+  },
+  "hash": {
+   "hash": "000bd8572fdfe78da55885a7cec82670255fbc41d63ec8288ffce058f6e3f90b",
+   "previous_hash": "0005754e61bc22c1887d6c0c737483e2c73ff515a1cf234f8ace0b2ef224aa17",
+   "proof": "3451"
+  }
+ },
+ {
+  "index": 155,
+  "timestamp": "04/14/2023 17:56:37",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 63,
+   "Y_pos": 62,
+   "V_Speed": 89
+  },
+  "hash": {
+   "hash": "00067b10545ba47dbd2af90ba435f337c58d05268fcdac081436a7317b60ae52",
+   "previous_hash": "000bd8572fdfe78da55885a7cec82670255fbc41d63ec8288ffce058f6e3f90b",
+   "proof": "2416"
+  }
+ },
+ {
+  "index": 156,
+  "timestamp": "04/14/2023 17:56:38",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 38,
+   "Y_pos": 88,
+   "V_Speed": 90
+  },
+  "hash": {
+   "hash": "000b92cf150c718db30d3e56eba9342a9d5637cd19dba7300aab93e4cc4c0a76",
+   "previous_hash": "00067b10545ba47dbd2af90ba435f337c58d05268fcdac081436a7317b60ae52",
+   "proof": "9615"
+  }
+ },
+ {
+  "index": 157,
+  "timestamp": "04/14/2023 17:56:38",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 26,
+   "Y_pos": 64,
+   "V_Speed": 86
+  },
+  "hash": {
+   "hash": "0008d345ca78a58551d55b581cb6cdc980c24f28fe35fed015eb422698ef3b61",
+   "previous_hash": "000b92cf150c718db30d3e56eba9342a9d5637cd19dba7300aab93e4cc4c0a76",
+   "proof": "931"
+  }
+ },
+ {
+  "index": 158,
+  "timestamp": "04/14/2023 17:56:38",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 4,
+   "Y_pos": 17,
+   "V_Speed": 81
+  },
+  "hash": {
+   "hash": "0006fa5c3a9d2efad5250cf31b1e5e66717d51cf126a48b786362b263715dc72",
+   "previous_hash": "0008d345ca78a58551d55b581cb6cdc980c24f28fe35fed015eb422698ef3b61",
+   "proof": "1377"
+  }
+ },
+ {
+  "index": 159,
+  "timestamp": "04/14/2023 17:56:39",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 10,
+   "Y_pos": 90,
+   "V_Speed": 17
+  },
+  "hash": {
+   "hash": "000d548b6a1256e3dd0947bef47f840f79491b44a2f256e86543a24d8ca97e34",
+   "previous_hash": "0006fa5c3a9d2efad5250cf31b1e5e66717d51cf126a48b786362b263715dc72",
+   "proof": "2196"
+  }
+ },
+ {
+  "index": 160,
+  "timestamp": "04/14/2023 17:56:39",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 78,
+   "Y_pos": 70,
+   "V_Speed": 84
+  },
+  "hash": {
+   "hash": "000941e2b09c27b9946e05eea7d0d3214321f9baf11c6c213e66a8409be43a55",
+   "previous_hash": "000d548b6a1256e3dd0947bef47f840f79491b44a2f256e86543a24d8ca97e34",
+   "proof": "1529"
+  }
+ },
+ {
+  "index": 161,
+  "timestamp": "04/14/2023 17:56:39",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 67,
+   "Y_pos": 81,
+   "V_Speed": 24
+  },
+  "hash": {
+   "hash": "0000194e0fcdcb79e364f3281242cc3b073b8d64bed350bcb3ee37e2b3526c7e",
+   "previous_hash": "000941e2b09c27b9946e05eea7d0d3214321f9baf11c6c213e66a8409be43a55",
+   "proof": "3240"
+  }
+ },
+ {
+  "index": 162,
+  "timestamp": "04/14/2023 17:56:40",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 68,
+   "Y_pos": 59,
+   "V_Speed": 10
+  },
+  "hash": {
+   "hash": "000c2f4765434fd768696ae369ed3270467b9109efd08b2d3ee5a1c39262a403",
+   "previous_hash": "0000194e0fcdcb79e364f3281242cc3b073b8d64bed350bcb3ee37e2b3526c7e",
+   "proof": "231"
+  }
+ },
+ {
+  "index": 163,
+  "timestamp": "04/14/2023 17:56:40",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 17,
+   "Y_pos": 73,
+   "V_Speed": 51
+  },
+  "hash": {
+   "hash": "0007ab8584995f6256c8cc3bcffe97b8cc4b188063c27bf6b2f0e35bf23f9b5e",
+   "previous_hash": "000c2f4765434fd768696ae369ed3270467b9109efd08b2d3ee5a1c39262a403",
+   "proof": "782"
+  }
+ },
+ {
+  "index": 164,
+  "timestamp": "04/14/2023 17:56:40",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 83,
+   "Y_pos": 20,
+   "V_Speed": 54
+  },
+  "hash": {
+   "hash": "000fe3816aec5ff177cd5e5c6a9a7db0f6bf5f22ead3f5ce3d6e949720c1df2a",
+   "previous_hash": "0007ab8584995f6256c8cc3bcffe97b8cc4b188063c27bf6b2f0e35bf23f9b5e",
+   "proof": "4174"
+  }
+ },
+ {
+  "index": 165,
+  "timestamp": "04/14/2023 17:56:41",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 67,
+   "Y_pos": 68,
+   "V_Speed": 78
+  },
+  "hash": {
+   "hash": "00030dfce4c7618598f77cfe583eba931ecf5eebaf05c83d1da6607d1bd9932c",
+   "previous_hash": "000fe3816aec5ff177cd5e5c6a9a7db0f6bf5f22ead3f5ce3d6e949720c1df2a",
+   "proof": "2058"
+  }
+ },
+ {
+  "index": 166,
+  "timestamp": "04/14/2023 17:56:41",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 16,
+   "Y_pos": 17,
+   "V_Speed": 32
+  },
+  "hash": {
+   "hash": "000b712f462af2afbe3f0990e2a8d871c7f4e65b01eef30ba339635857b34715",
+   "previous_hash": "00030dfce4c7618598f77cfe583eba931ecf5eebaf05c83d1da6607d1bd9932c",
+   "proof": "1764"
+  }
+ },
+ {
+  "index": 167,
+  "timestamp": "04/14/2023 17:56:41",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 49,
+   "Y_pos": 15,
+   "V_Speed": 38
+  },
+  "hash": {
+   "hash": "0000cf145f69ddf32bd8738f6479b188d5aeba1db886eb7bf6c943503cd8cb18",
+   "previous_hash": "000b712f462af2afbe3f0990e2a8d871c7f4e65b01eef30ba339635857b34715",
+   "proof": "8025"
+  }
+ },
+ {
+  "index": 168,
+  "timestamp": "04/14/2023 17:56:42",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 66,
+   "Y_pos": 88,
+   "V_Speed": 6
+  },
+  "hash": {
+   "hash": "0008b7089d6ce7dd5130a44b2478c299594749138b19c8081c01ebcc346d174c",
+   "previous_hash": "0000cf145f69ddf32bd8738f6479b188d5aeba1db886eb7bf6c943503cd8cb18",
+   "proof": "1714"
+  }
+ },
+ {
+  "index": 169,
+  "timestamp": "04/14/2023 17:56:42",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 88,
+   "Y_pos": 43,
+   "V_Speed": 84
+  },
+  "hash": {
+   "hash": "00039c1ae7b48cec49b6ba9cc0f756028ca0b7b985b19440ec094df54a413891",
+   "previous_hash": "0008b7089d6ce7dd5130a44b2478c299594749138b19c8081c01ebcc346d174c",
+   "proof": "3692"
+  }
+ },
+ {
+  "index": 170,
+  "timestamp": "04/14/2023 17:56:42",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 21,
+   "Y_pos": 94,
+   "V_Speed": 37
+  },
+  "hash": {
+   "hash": "0007f3c30f07e7acad87fa6be2dd6556efc117fcd524253da7500db6c978a433",
+   "previous_hash": "00039c1ae7b48cec49b6ba9cc0f756028ca0b7b985b19440ec094df54a413891",
+   "proof": "849"
+  }
+ },
+ {
+  "index": 171,
+  "timestamp": "04/14/2023 17:56:43",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 16,
+   "Y_pos": 99,
+   "V_Speed": 60
+  },
+  "hash": {
+   "hash": "0002632734f2c4b7132619f562c223fe8217b111097151d5ff07606bb318cb09",
+   "previous_hash": "0007f3c30f07e7acad87fa6be2dd6556efc117fcd524253da7500db6c978a433",
+   "proof": "7625"
+  }
+ },
+ {
+  "index": 172,
+  "timestamp": "04/14/2023 17:56:43",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 73,
+   "Y_pos": 35,
+   "V_Speed": 75
+  },
+  "hash": {
+   "hash": "000996d248b83eb9547274316c1f0369baa6d2c4bad4c38a5e4548880efbe0a4",
+   "previous_hash": "0002632734f2c4b7132619f562c223fe8217b111097151d5ff07606bb318cb09",
+   "proof": "856"
+  }
+ },
+ {
+  "index": 173,
+  "timestamp": "04/14/2023 17:56:43",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 31,
+   "Y_pos": 68,
+   "V_Speed": 9
+  },
+  "hash": {
+   "hash": "000310f1b555a84fc6246af8bd6beded19daef258e1a860c36b093157f397f18",
+   "previous_hash": "000996d248b83eb9547274316c1f0369baa6d2c4bad4c38a5e4548880efbe0a4",
+   "proof": "8883"
+  }
+ },
+ {
+  "index": 174,
+  "timestamp": "04/14/2023 17:56:44",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 1,
+   "Y_pos": 71,
+   "V_Speed": 48
+  },
+  "hash": {
+   "hash": "0000f19b38499581aeb305578d6c276c2e4cec9636c2e17f4c8488b8d93ae2db",
+   "previous_hash": "000310f1b555a84fc6246af8bd6beded19daef258e1a860c36b093157f397f18",
+   "proof": "3932"
+  }
+ },
+ {
+  "index": 175,
+  "timestamp": "04/14/2023 17:56:44",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 87,
+   "Y_pos": 88,
+   "V_Speed": 68
+  },
+  "hash": {
+   "hash": "000976749fa8c7f6445c65e644754dace53d47b1809badb4094de345729a9ec9",
+   "previous_hash": "0000f19b38499581aeb305578d6c276c2e4cec9636c2e17f4c8488b8d93ae2db",
+   "proof": "4787"
+  }
+ },
+ {
+  "index": 176,
+  "timestamp": "04/14/2023 17:56:44",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 53,
+   "Y_pos": 32,
+   "V_Speed": 2
+  },
+  "hash": {
+   "hash": "0008ea75bc260d4c9f98d10a6185b9a8a23ad3a3adef93778518312aaffe10ab",
+   "previous_hash": "000976749fa8c7f6445c65e644754dace53d47b1809badb4094de345729a9ec9",
+   "proof": "12886"
+  }
+ },
+ {
+  "index": 177,
+  "timestamp": "04/14/2023 17:56:45",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 42,
+   "Y_pos": 73,
+   "V_Speed": 6
+  },
+  "hash": {
+   "hash": "0000e4f206ebb1452d7c3e2f5569fa9bd62db8e7395c0a920db77ceff5cf256e",
+   "previous_hash": "0008ea75bc260d4c9f98d10a6185b9a8a23ad3a3adef93778518312aaffe10ab",
+   "proof": "8118"
+  }
+ },
+ {
+  "index": 178,
+  "timestamp": "04/14/2023 17:56:45",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 29,
+   "Y_pos": 71,
+   "V_Speed": 45
+  },
+  "hash": {
+   "hash": "0008200da1eef8084705e20452b6448a978a35ba0e53109011a6f78833def24a",
+   "previous_hash": "0000e4f206ebb1452d7c3e2f5569fa9bd62db8e7395c0a920db77ceff5cf256e",
+   "proof": "4326"
+  }
+ },
+ {
+  "index": 179,
+  "timestamp": "04/14/2023 17:56:45",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 9,
+   "Y_pos": 20,
+   "V_Speed": 47
+  },
+  "hash": {
+   "hash": "0006f2082d6efe7b5e064b380ec2d24688fc8e004e171759d3276d4b6e1d5cf1",
+   "previous_hash": "0008200da1eef8084705e20452b6448a978a35ba0e53109011a6f78833def24a",
+   "proof": "3717"
+  }
+ },
+ {
+  "index": 180,
+  "timestamp": "04/14/2023 17:56:46",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 32,
+   "Y_pos": 52,
+   "V_Speed": 0
+  },
+  "hash": {
+   "hash": "0003414e18ff068c7373b606c8d5faeb1a60e646ab1b43d4fcd22f9c3592f885",
+   "previous_hash": "0006f2082d6efe7b5e064b380ec2d24688fc8e004e171759d3276d4b6e1d5cf1",
+   "proof": "6381"
+  }
+ },
+ {
+  "index": 181,
+  "timestamp": "04/14/2023 17:56:46",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 90,
+   "Y_pos": 73,
+   "V_Speed": 3
+  },
+  "hash": {
+   "hash": "0003c75818bf8580d2f6d01ec1b0c12115dea7f96f5248c780e0ff80db0e7981",
+   "previous_hash": "0003414e18ff068c7373b606c8d5faeb1a60e646ab1b43d4fcd22f9c3592f885",
+   "proof": "414"
+  }
+ },
+ {
+  "index": 182,
+  "timestamp": "04/14/2023 17:56:46",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 12,
+   "Y_pos": 70,
+   "V_Speed": 98
+  },
+  "hash": {
+   "hash": "000ae00e959d77c35915701110728e8b82b46d083584a63cb6096d45aa87870f",
+   "previous_hash": "0003c75818bf8580d2f6d01ec1b0c12115dea7f96f5248c780e0ff80db0e7981",
+   "proof": "7323"
+  }
+ },
+ {
+  "index": 183,
+  "timestamp": "04/14/2023 17:56:47",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 21,
+   "Y_pos": 10,
+   "V_Speed": 59
+  },
+  "hash": {
+   "hash": "000d790940b10c598af419bc3f8dd9f1e26234a61ae39695cff880ad6ab1db7f",
+   "previous_hash": "000ae00e959d77c35915701110728e8b82b46d083584a63cb6096d45aa87870f",
+   "proof": "5592"
+  }
+ },
+ {
+  "index": 184,
+  "timestamp": "04/14/2023 17:56:47",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 72,
+   "Y_pos": 59,
+   "V_Speed": 90
+  },
+  "hash": {
+   "hash": "0009133ff0f424e0cc95ec439a0bbde5ab716f4372b1c74eae17a379a7aba5d2",
+   "previous_hash": "000d790940b10c598af419bc3f8dd9f1e26234a61ae39695cff880ad6ab1db7f",
+   "proof": "2096"
+  }
+ },
+ {
+  "index": 185,
+  "timestamp": "04/14/2023 17:56:47",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 60,
+   "Y_pos": 11,
+   "V_Speed": 46
+  },
+  "hash": {
+   "hash": "00039dd3cb0042f69466327c56039565f15695bf11582fcfab7ba091c26bb7c1",
+   "previous_hash": "0009133ff0f424e0cc95ec439a0bbde5ab716f4372b1c74eae17a379a7aba5d2",
+   "proof": "453"
+  }
+ },
+ {
+  "index": 186,
+  "timestamp": "04/14/2023 17:56:48",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 26,
+   "Y_pos": 82,
+   "V_Speed": 1
+  },
+  "hash": {
+   "hash": "0004ef21b7f704bbba8a430779c0ecd3b3129521c32339f7501b2f9ae285c020",
+   "previous_hash": "00039dd3cb0042f69466327c56039565f15695bf11582fcfab7ba091c26bb7c1",
+   "proof": "4565"
+  }
+ },
+ {
+  "index": 187,
+  "timestamp": "04/14/2023 17:56:48",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 97,
+   "Y_pos": 61,
+   "V_Speed": 71
+  },
+  "hash": {
+   "hash": "000f734c12d8d1cff9e21a47dacc83ea99bac261cad3394fcf07455f9dfd0648",
+   "previous_hash": "0004ef21b7f704bbba8a430779c0ecd3b3129521c32339f7501b2f9ae285c020",
+   "proof": "5908"
+  }
+ },
+ {
+  "index": 188,
+  "timestamp": "04/14/2023 17:56:48",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 68,
+   "Y_pos": 28,
+   "V_Speed": 54
+  },
+  "hash": {
+   "hash": "0007e324c0432436b2724327b93a7e15a19cf26200bb6b3a21ebc06b205618b3",
+   "previous_hash": "000f734c12d8d1cff9e21a47dacc83ea99bac261cad3394fcf07455f9dfd0648",
+   "proof": "4555"
+  }
+ },
+ {
+  "index": 189,
+  "timestamp": "04/14/2023 17:56:49",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 70,
+   "Y_pos": 76,
+   "V_Speed": 29
+  },
+  "hash": {
+   "hash": "000234e65de05463829b0aea80e6667f0f3a7fd0dfecf3d5155433009a956426",
+   "previous_hash": "0007e324c0432436b2724327b93a7e15a19cf26200bb6b3a21ebc06b205618b3",
+   "proof": "10214"
+  }
+ },
+ {
+  "index": 190,
+  "timestamp": "04/14/2023 17:56:49",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 39,
+   "Y_pos": 18,
+   "V_Speed": 21
+  },
+  "hash": {
+   "hash": "000eb71f0567c01fb31b086a00336c4c751ef37a55b9c22fa4cdb82155486a87",
+   "previous_hash": "000234e65de05463829b0aea80e6667f0f3a7fd0dfecf3d5155433009a956426",
+   "proof": "1615"
+  }
+ },
+ {
+  "index": 191,
+  "timestamp": "04/14/2023 17:56:49",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 1,
+   "Y_pos": 86,
+   "V_Speed": 5
+  },
+  "hash": {
+   "hash": "000348039480ac2dff3f639e135550bee4619642bc7ec2a5590485373ff29ea0",
+   "previous_hash": "000eb71f0567c01fb31b086a00336c4c751ef37a55b9c22fa4cdb82155486a87",
+   "proof": "6104"
+  }
+ },
+ {
+  "index": 192,
+  "timestamp": "04/14/2023 17:56:50",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 70,
+   "Y_pos": 9,
+   "V_Speed": 49
+  },
+  "hash": {
+   "hash": "000c1252b182c71452d67b0015cd591de1ec61a68edbd3e6c8b470e68af8f8f6",
+   "previous_hash": "000348039480ac2dff3f639e135550bee4619642bc7ec2a5590485373ff29ea0",
+   "proof": "253"
+  }
+ },
+ {
+  "index": 193,
+  "timestamp": "04/14/2023 17:56:50",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 60,
+   "Y_pos": 81,
+   "V_Speed": 54
+  },
+  "hash": {
+   "hash": "000e875224e5c5e82acd9a7177e8153bafe999003db2a6dcd0835907d24992ad",
+   "previous_hash": "000c1252b182c71452d67b0015cd591de1ec61a68edbd3e6c8b470e68af8f8f6",
+   "proof": "3129"
+  }
+ },
+ {
+  "index": 194,
+  "timestamp": "04/14/2023 17:56:50",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 23,
+   "Y_pos": 86,
+   "V_Speed": 28
+  },
+  "hash": {
+   "hash": "0006ad143476e9a5a922257ffd627bdd7582b240a24c9f1dc469bea4c3a6d228",
+   "previous_hash": "000e875224e5c5e82acd9a7177e8153bafe999003db2a6dcd0835907d24992ad",
+   "proof": "4259"
+  }
+ },
+ {
+  "index": 195,
+  "timestamp": "04/14/2023 17:56:51",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 11,
+   "Y_pos": 80,
+   "V_Speed": 48
+  },
+  "hash": {
+   "hash": "0002f8d4155c70b3782eb19e20467f5dde00c0857053cd3ee8ad11cc58ea92bc",
+   "previous_hash": "0006ad143476e9a5a922257ffd627bdd7582b240a24c9f1dc469bea4c3a6d228",
+   "proof": "6431"
+  }
+ },
+ {
+  "index": 196,
+  "timestamp": "04/14/2023 17:56:51",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 90,
+   "Y_pos": 62,
+   "V_Speed": 46
+  },
+  "hash": {
+   "hash": "0009c31b163cdccfa70f3b0a91e40903e858d699c97585fe59b18e2296d0d5c7",
+   "previous_hash": "0002f8d4155c70b3782eb19e20467f5dde00c0857053cd3ee8ad11cc58ea92bc",
+   "proof": "2030"
+  }
+ },
+ {
+  "index": 197,
+  "timestamp": "04/14/2023 17:56:51",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 10,
+   "Y_pos": 31,
+   "V_Speed": 91
+  },
+  "hash": {
+   "hash": "000a3cb80e115e7880fab8ac4ef97c88e4172558a651187ecd78d753956ad2d0",
+   "previous_hash": "0009c31b163cdccfa70f3b0a91e40903e858d699c97585fe59b18e2296d0d5c7",
+   "proof": "1432"
+  }
+ },
+ {
+  "index": 198,
+  "timestamp": "04/14/2023 17:56:52",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 38,
+   "Y_pos": 25,
+   "V_Speed": 24
+  },
+  "hash": {
+   "hash": "0004757d9e6b8804f14c9f3343414aa089d5dac69c26d3fe5a846ee76ddcf998",
+   "previous_hash": "000a3cb80e115e7880fab8ac4ef97c88e4172558a651187ecd78d753956ad2d0",
+   "proof": "4101"
+  }
+ },
+ {
+  "index": 199,
+  "timestamp": "04/14/2023 17:56:52",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 96,
+   "Y_pos": 5,
+   "V_Speed": 49
+  },
+  "hash": {
+   "hash": "00063954492c12e70f3fa4412b56d39365838a1a66739cdc3c56978e55e883f2",
+   "previous_hash": "0004757d9e6b8804f14c9f3343414aa089d5dac69c26d3fe5a846ee76ddcf998",
+   "proof": "2741"
+  }
+ },
+ {
+  "index": 200,
+  "timestamp": "04/14/2023 17:56:52",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 57,
+   "Y_pos": 44,
+   "V_Speed": 81
+  },
+  "hash": {
+   "hash": "00069bfbd99767ca7055b1f45ca5699dc75a99c2d7f02430112fae321d291f16",
+   "previous_hash": "00063954492c12e70f3fa4412b56d39365838a1a66739cdc3c56978e55e883f2",
+   "proof": "5312"
+  }
+ },
+ {
+  "index": 201,
+  "timestamp": "04/14/2023 17:56:53",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 49,
+   "Y_pos": 71,
+   "V_Speed": 56
+  },
+  "hash": {
+   "hash": "000dcb4f803773be2bd10a8ec3ac4d8779fa1d4bf3627f169657dfa117636f6e",
+   "previous_hash": "00069bfbd99767ca7055b1f45ca5699dc75a99c2d7f02430112fae321d291f16",
+   "proof": "3211"
+  }
+ },
+ {
+  "index": 202,
+  "timestamp": "04/14/2023 17:56:53",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 66,
+   "Y_pos": 74,
+   "V_Speed": 78
+  },
+  "hash": {
+   "hash": "0002378acf50baedbaaba82542309a34321eebaadc822f92fde84e6675faebad",
+   "previous_hash": "000dcb4f803773be2bd10a8ec3ac4d8779fa1d4bf3627f169657dfa117636f6e",
+   "proof": "10226"
+  }
+ },
+ {
+  "index": 203,
+  "timestamp": "04/14/2023 17:56:53",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 88,
+   "Y_pos": 69,
+   "V_Speed": 98
+  },
+  "hash": {
+   "hash": "00050a17418dd655bac5c56c12562a228d3420e276c75f8e573aa9c2abc6e374",
+   "previous_hash": "0002378acf50baedbaaba82542309a34321eebaadc822f92fde84e6675faebad",
+   "proof": "4291"
+  }
+ },
+ {
+  "index": 204,
+  "timestamp": "04/14/2023 17:56:54",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 67,
+   "Y_pos": 48,
+   "V_Speed": 59
+  },
+  "hash": {
+   "hash": "00073b26b45e48b2d449fd735cb4d95b2b2e15551aadf8b6b55fcdf590904971",
+   "previous_hash": "00050a17418dd655bac5c56c12562a228d3420e276c75f8e573aa9c2abc6e374",
+   "proof": "2567"
+  }
+ },
+ {
+  "index": 205,
+  "timestamp": "04/14/2023 17:56:54",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 50,
+   "Y_pos": 9,
+   "V_Speed": 67
+  },
+  "hash": {
+   "hash": "000c1834fa46ce3a846b37c3f0c75d0c5c2c0880562b886b0526088ad9db0b19",
+   "previous_hash": "00073b26b45e48b2d449fd735cb4d95b2b2e15551aadf8b6b55fcdf590904971",
+   "proof": "336"
+  }
+ },
+ {
+  "index": 206,
+  "timestamp": "04/14/2023 17:56:54",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 20,
+   "Y_pos": 1,
+   "V_Speed": 24
+  },
+  "hash": {
+   "hash": "000becef7bed921b121566bfc370e20b73a97bac605471628b8433d0b24316a7",
+   "previous_hash": "000c1834fa46ce3a846b37c3f0c75d0c5c2c0880562b886b0526088ad9db0b19",
+   "proof": "7967"
+  }
+ },
+ {
+  "index": 207,
+  "timestamp": "04/14/2023 17:56:55",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 22,
+   "Y_pos": 59,
+   "V_Speed": 36
+  },
+  "hash": {
+   "hash": "00071924a90bcffb03abf9831412983de2d74450a98d3822c9d8f5211e9b6eba",
+   "previous_hash": "000becef7bed921b121566bfc370e20b73a97bac605471628b8433d0b24316a7",
+   "proof": "851"
+  }
+ },
+ {
+  "index": 208,
+  "timestamp": "04/14/2023 17:56:55",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 19,
+   "Y_pos": 3,
+   "V_Speed": 97
+  },
+  "hash": {
+   "hash": "000df40f6b306abd04d73a5f8d73fa99b3a0a4ea1c45c33d8aad268b2f87e96d",
+   "previous_hash": "00071924a90bcffb03abf9831412983de2d74450a98d3822c9d8f5211e9b6eba",
+   "proof": "6487"
+  }
+ },
+ {
+  "index": 209,
+  "timestamp": "04/14/2023 17:56:55",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 49,
+   "Y_pos": 7,
+   "V_Speed": 49
+  },
+  "hash": {
+   "hash": "0006dcbfc84742fc9d48b5b19ae335ea7b9fe9ab4c3d3b539b7ce3cf0d84215d",
+   "previous_hash": "000df40f6b306abd04d73a5f8d73fa99b3a0a4ea1c45c33d8aad268b2f87e96d",
+   "proof": "805"
+  }
+ },
+ {
+  "index": 210,
+  "timestamp": "04/14/2023 17:56:56",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 16,
+   "Y_pos": 54,
+   "V_Speed": 37
+  },
+  "hash": {
+   "hash": "000a9f779974550f9afe48b20e08cb755b5b8162b46c85fe7b4838c2e67f6ee4",
+   "previous_hash": "0006dcbfc84742fc9d48b5b19ae335ea7b9fe9ab4c3d3b539b7ce3cf0d84215d",
+   "proof": "612"
+  }
+ },
+ {
+  "index": 211,
+  "timestamp": "04/14/2023 17:56:56",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 23,
+   "Y_pos": 78,
+   "V_Speed": 78
+  },
+  "hash": {
+   "hash": "0003bd954d663928d51079b1652e81ccbfe4c31ebb46446a79b57a58727705ac",
+   "previous_hash": "000a9f779974550f9afe48b20e08cb755b5b8162b46c85fe7b4838c2e67f6ee4",
+   "proof": "4378"
+  }
+ },
+ {
+  "index": 212,
+  "timestamp": "04/14/2023 17:56:56",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 21,
+   "Y_pos": 75,
+   "V_Speed": 48
+  },
+  "hash": {
+   "hash": "00050561e25e311602844a2500593dae039119ee50fe8a6dd968eb5938037bbf",
+   "previous_hash": "0003bd954d663928d51079b1652e81ccbfe4c31ebb46446a79b57a58727705ac",
+   "proof": "8193"
+  }
+ },
+ {
+  "index": 213,
+  "timestamp": "04/14/2023 17:56:57",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 96,
+   "Y_pos": 9,
+   "V_Speed": 27
+  },
+  "hash": {
+   "hash": "000008dbf90a91c322f95d518d1532230db8ead2bbd3aba807824a203b6ae2f3",
+   "previous_hash": "00050561e25e311602844a2500593dae039119ee50fe8a6dd968eb5938037bbf",
+   "proof": "4572"
+  }
+ },
+ {
+  "index": 214,
+  "timestamp": "04/14/2023 17:56:57",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 21,
+   "Y_pos": 37,
+   "V_Speed": 2
+  },
+  "hash": {
+   "hash": "0002f83ae6760dbcae7d0462a7e54a87eba10dd59ad1edf2f1c14a4146e67b89",
+   "previous_hash": "000008dbf90a91c322f95d518d1532230db8ead2bbd3aba807824a203b6ae2f3",
+   "proof": "48"
+  }
+ },
+ {
+  "index": 215,
+  "timestamp": "04/14/2023 17:56:57",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 31,
+   "Y_pos": 61,
+   "V_Speed": 3
+  },
+  "hash": {
+   "hash": "000e2d65622e8301e92a8933319302e4ff70feff5fbd6dbbc8cf173ef723cd36",
+   "previous_hash": "0002f83ae6760dbcae7d0462a7e54a87eba10dd59ad1edf2f1c14a4146e67b89",
+   "proof": "3371"
+  }
+ },
+ {
+  "index": 216,
+  "timestamp": "04/14/2023 17:56:58",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 2,
+   "Y_pos": 94,
+   "V_Speed": 78
+  },
+  "hash": {
+   "hash": "000c6ba87a458e86eb1bc2f6c039bed60dd2cf7b80f796f531cb65840c5e30d1",
+   "previous_hash": "000e2d65622e8301e92a8933319302e4ff70feff5fbd6dbbc8cf173ef723cd36",
+   "proof": "8532"
+  }
+ },
+ {
+  "index": 217,
+  "timestamp": "04/14/2023 17:56:58",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 54,
+   "Y_pos": 25,
+   "V_Speed": 40
+  },
+  "hash": {
+   "hash": "0000af8d047b543c2fce9a9b2e9f4af48b6d9c438e150c63cec3f6ae21a983a2",
+   "previous_hash": "000c6ba87a458e86eb1bc2f6c039bed60dd2cf7b80f796f531cb65840c5e30d1",
+   "proof": "10275"
+  }
+ },
+ {
+  "index": 218,
+  "timestamp": "04/14/2023 17:56:58",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 71,
+   "Y_pos": 41,
+   "V_Speed": 56
+  },
+  "hash": {
+   "hash": "000b03cb2f4d024e0bbb9b5b44ae1cad379497b2cd9f687a9048d388ec8e0f27",
+   "previous_hash": "0000af8d047b543c2fce9a9b2e9f4af48b6d9c438e150c63cec3f6ae21a983a2",
+   "proof": "9065"
+  }
+ },
+ {
+  "index": 219,
+  "timestamp": "04/14/2023 17:56:59",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 43,
+   "Y_pos": 42,
+   "V_Speed": 44
+  },
+  "hash": {
+   "hash": "000b847c85f43ab311ef381d5536c06302519d360f462776ad24c276986c73db",
+   "previous_hash": "000b03cb2f4d024e0bbb9b5b44ae1cad379497b2cd9f687a9048d388ec8e0f27",
+   "proof": "138"
+  }
+ },
+ {
+  "index": 220,
+  "timestamp": "04/14/2023 17:56:59",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 60,
+   "Y_pos": 54,
+   "V_Speed": 46
+  },
+  "hash": {
+   "hash": "000f34465cfe2ae744d647f6ae3c2c832545b3b2a16306286bb680eaa0f4a798",
+   "previous_hash": "000b847c85f43ab311ef381d5536c06302519d360f462776ad24c276986c73db",
+   "proof": "404"
+  }
+ },
+ {
+  "index": 221,
+  "timestamp": "04/14/2023 17:56:59",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 26,
+   "Y_pos": 27,
+   "V_Speed": 2
+  },
+  "hash": {
+   "hash": "00058e72a312594e811236f3ba51966e25f037fbc990eb1ae7853263b092f4d8",
+   "previous_hash": "000f34465cfe2ae744d647f6ae3c2c832545b3b2a16306286bb680eaa0f4a798",
+   "proof": "7970"
+  }
+ },
+ {
+  "index": 222,
+  "timestamp": "04/14/2023 17:57:00",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 25,
+   "Y_pos": 75,
+   "V_Speed": 53
+  },
+  "hash": {
+   "hash": "000ae1c0ff735e566dcdbc5f6fd6c02b2d73b33c3dd9278d8da1fab0e548b6a4",
+   "previous_hash": "00058e72a312594e811236f3ba51966e25f037fbc990eb1ae7853263b092f4d8",
+   "proof": "6367"
+  }
+ },
+ {
+  "index": 223,
+  "timestamp": "04/14/2023 17:57:00",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 56,
+   "Y_pos": 23,
+   "V_Speed": 6
+  },
+  "hash": {
+   "hash": "0008bd6a7f6a7de94347d82649b7029fa632417af5e74900fabba55ba061696f",
+   "previous_hash": "000ae1c0ff735e566dcdbc5f6fd6c02b2d73b33c3dd9278d8da1fab0e548b6a4",
+   "proof": "7122"
+  }
+ },
+ {
+  "index": 224,
+  "timestamp": "04/14/2023 17:57:00",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 15,
+   "Y_pos": 27,
+   "V_Speed": 34
+  },
+  "hash": {
+   "hash": "000774f91061c4e92694c951ea92301c7400e97067135535e8f4587df125dcea",
+   "previous_hash": "0008bd6a7f6a7de94347d82649b7029fa632417af5e74900fabba55ba061696f",
+   "proof": "4235"
+  }
+ },
+ {
+  "index": 225,
+  "timestamp": "04/14/2023 17:57:01",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 44,
+   "Y_pos": 79,
+   "V_Speed": 47
+  },
+  "hash": {
+   "hash": "000c9a31d6223d189c2d1fc62ec1c69d1febebe764a849e821940ccd5a09c222",
+   "previous_hash": "000774f91061c4e92694c951ea92301c7400e97067135535e8f4587df125dcea",
+   "proof": "509"
+  }
+ },
+ {
+  "index": 226,
+  "timestamp": "04/14/2023 17:57:01",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 33,
+   "Y_pos": 20,
+   "V_Speed": 64
+  },
+  "hash": {
+   "hash": "0007393c20fa2d8a4dae6029cd6b6c6512dcd3dbbc67315ff408288ad55eeebf",
+   "previous_hash": "000c9a31d6223d189c2d1fc62ec1c69d1febebe764a849e821940ccd5a09c222",
+   "proof": "2919"
+  }
+ },
+ {
+  "index": 227,
+  "timestamp": "04/14/2023 17:57:01",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 40,
+   "Y_pos": 58,
+   "V_Speed": 36
+  },
+  "hash": {
+   "hash": "00086900055a2c9a1581f2082cf9f516a6f16edf869f0f25c9341e908f775de8",
+   "previous_hash": "0007393c20fa2d8a4dae6029cd6b6c6512dcd3dbbc67315ff408288ad55eeebf",
+   "proof": "1706"
+  }
+ },
+ {
+  "index": 228,
+  "timestamp": "04/14/2023 17:57:02",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 91,
+   "Y_pos": 42,
+   "V_Speed": 71
+  },
+  "hash": {
+   "hash": "0006045ccfd90d11b2b47859e609e99e3d721b03a2c8f276e5ad43b72f2545bc",
+   "previous_hash": "00086900055a2c9a1581f2082cf9f516a6f16edf869f0f25c9341e908f775de8",
+   "proof": "3995"
+  }
+ },
+ {
+  "index": 229,
+  "timestamp": "04/14/2023 17:57:02",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 4,
+   "Y_pos": 20,
+   "V_Speed": 14
+  },
+  "hash": {
+   "hash": "000695896b122045b2e1dbbb4cb6bdda81e9024002a74051cce68c24178ed01a",
+   "previous_hash": "0006045ccfd90d11b2b47859e609e99e3d721b03a2c8f276e5ad43b72f2545bc",
+   "proof": "849"
+  }
+ },
+ {
+  "index": 230,
+  "timestamp": "04/14/2023 17:57:02",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 15,
+   "Y_pos": 76,
+   "V_Speed": 85
+  },
+  "hash": {
+   "hash": "000117fb0850bd537037713e2fa55e926f86e4c4efb8d869380e12276802cdbc",
+   "previous_hash": "000695896b122045b2e1dbbb4cb6bdda81e9024002a74051cce68c24178ed01a",
+   "proof": "986"
+  }
+ },
+ {
+  "index": 231,
+  "timestamp": "04/14/2023 17:57:03",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 23,
+   "Y_pos": 47,
+   "V_Speed": 17
+  },
+  "hash": {
+   "hash": "0008da238f0eb7fd306b391fe3412fa2085086b9933b5511379215bb5dacb929",
+   "previous_hash": "000117fb0850bd537037713e2fa55e926f86e4c4efb8d869380e12276802cdbc",
+   "proof": "1988"
+  }
+ },
+ {
+  "index": 232,
+  "timestamp": "04/14/2023 17:57:03",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 71,
+   "Y_pos": 33,
+   "V_Speed": 51
+  },
+  "hash": {
+   "hash": "0000471f0991a9e21cdc4fb851f8191f4834d8a1b7df0f854c88cbb3739252fe",
+   "previous_hash": "0008da238f0eb7fd306b391fe3412fa2085086b9933b5511379215bb5dacb929",
+   "proof": "2000"
+  }
+ },
+ {
+  "index": 233,
+  "timestamp": "04/14/2023 17:57:03",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 95,
+   "Y_pos": 55,
+   "V_Speed": 78
+  },
+  "hash": {
+   "hash": "000782951001baf2d1ae864d4210f19a9c864f1fcdf58a0cc79cef928cbc3ab3",
+   "previous_hash": "0000471f0991a9e21cdc4fb851f8191f4834d8a1b7df0f854c88cbb3739252fe",
+   "proof": "12722"
+  }
+ },
+ {
+  "index": 234,
+  "timestamp": "04/14/2023 17:57:04",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 73,
+   "Y_pos": 61,
+   "V_Speed": 4
+  },
+  "hash": {
+   "hash": "000ce6b1b1db741b69e21f7e4e5b8fa01f55eef3ac4262da3a01e1d28dd02593",
+   "previous_hash": "000782951001baf2d1ae864d4210f19a9c864f1fcdf58a0cc79cef928cbc3ab3",
+   "proof": "804"
+  }
+ },
+ {
+  "index": 235,
+  "timestamp": "04/14/2023 17:57:04",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 73,
+   "Y_pos": 18,
+   "V_Speed": 19
+  },
+  "hash": {
+   "hash": "000c89b86243b9cc2d035e75b6c6b3b3cbf99eed2eda848b354a175c2afc6217",
+   "previous_hash": "000ce6b1b1db741b69e21f7e4e5b8fa01f55eef3ac4262da3a01e1d28dd02593",
+   "proof": "795"
+  }
+ },
+ {
+  "index": 236,
+  "timestamp": "04/14/2023 17:57:04",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 88,
+   "Y_pos": 48,
+   "V_Speed": 24
+  },
+  "hash": {
+   "hash": "0003db023838cf5e39c24d02516f6b70e678075e8cfe37dee471f669747192df",
+   "previous_hash": "000c89b86243b9cc2d035e75b6c6b3b3cbf99eed2eda848b354a175c2afc6217",
+   "proof": "2824"
+  }
+ },
+ {
+  "index": 237,
+  "timestamp": "04/14/2023 17:57:05",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 84,
+   "Y_pos": 64,
+   "V_Speed": 59
+  },
+  "hash": {
+   "hash": "000d87227b36be444ef35f7849f8cce83517208cea878d0163a867c0e6540e4a",
+   "previous_hash": "0003db023838cf5e39c24d02516f6b70e678075e8cfe37dee471f669747192df",
+   "proof": "8349"
+  }
+ },
+ {
+  "index": 238,
+  "timestamp": "04/14/2023 17:57:05",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 52,
+   "Y_pos": 23,
+   "V_Speed": 56
+  },
+  "hash": {
+   "hash": "000de131d23f8503a0108541c0f80db3f982548117d988f625addb64a3d8437b",
+   "previous_hash": "000d87227b36be444ef35f7849f8cce83517208cea878d0163a867c0e6540e4a",
+   "proof": "360"
+  }
+ },
+ {
+  "index": 239,
+  "timestamp": "04/14/2023 17:57:05",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 19,
+   "Y_pos": 42,
+   "V_Speed": 28
+  },
+  "hash": {
+   "hash": "000cc441abe6faeac8bc12326e919ec9132b0cb6b29511e7e5e0e55171f2e607",
+   "previous_hash": "000de131d23f8503a0108541c0f80db3f982548117d988f625addb64a3d8437b",
+   "proof": "2772"
+  }
+ },
+ {
+  "index": 240,
+  "timestamp": "04/14/2023 17:57:06",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 9,
+   "Y_pos": 93,
+   "V_Speed": 99
+  },
+  "hash": {
+   "hash": "000b386d619a57fd64b686d679d9fe2e2de44bfc19557586b359f39d72692500",
+   "previous_hash": "000cc441abe6faeac8bc12326e919ec9132b0cb6b29511e7e5e0e55171f2e607",
+   "proof": "9962"
+  }
+ },
+ {
+  "index": 241,
+  "timestamp": "04/14/2023 17:57:06",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 91,
+   "Y_pos": 65,
+   "V_Speed": 58
+  },
+  "hash": {
+   "hash": "000a21a6194063574b27af85f8d9a28c606149062a268dc3783a98e7c0d468e0",
+   "previous_hash": "000b386d619a57fd64b686d679d9fe2e2de44bfc19557586b359f39d72692500",
+   "proof": "3532"
+  }
+ },
+ {
+  "index": 242,
+  "timestamp": "04/14/2023 17:57:06",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 24,
+   "Y_pos": 46,
+   "V_Speed": 7
+  },
+  "hash": {
+   "hash": "000554311c179aee8dd6ba7d0d5cdea12ee5b58e2c72332b1950149f21e018ca",
+   "previous_hash": "000a21a6194063574b27af85f8d9a28c606149062a268dc3783a98e7c0d468e0",
+   "proof": "5761"
+  }
+ },
+ {
+  "index": 243,
+  "timestamp": "04/14/2023 17:57:07",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 12,
+   "Y_pos": 52,
+   "V_Speed": 83
+  },
+  "hash": {
+   "hash": "000775fbe14c4a6b8ac0b689df9f11d3c6b0d4da0c15fab3c78c19413ff501f6",
+   "previous_hash": "000554311c179aee8dd6ba7d0d5cdea12ee5b58e2c72332b1950149f21e018ca",
+   "proof": "136"
+  }
+ },
+ {
+  "index": 244,
+  "timestamp": "04/14/2023 17:57:07",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 56,
+   "Y_pos": 9,
+   "V_Speed": 67
+  },
+  "hash": {
+   "hash": "0008fd858f2bf45ac44408d565ce56a06781bc4164dbeab45bd576a8c81d9a9d",
+   "previous_hash": "000775fbe14c4a6b8ac0b689df9f11d3c6b0d4da0c15fab3c78c19413ff501f6",
+   "proof": "10953"
+  }
+ },
+ {
+  "index": 245,
+  "timestamp": "04/14/2023 17:57:07",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 85,
+   "Y_pos": 17,
+   "V_Speed": 51
+  },
+  "hash": {
+   "hash": "000b91da58a49a082c0a62c0ff30cbbd98eca1e4a2000fdaec2daa28388bd365",
+   "previous_hash": "0008fd858f2bf45ac44408d565ce56a06781bc4164dbeab45bd576a8c81d9a9d",
+   "proof": "2691"
+  }
+ },
+ {
+  "index": 246,
+  "timestamp": "04/14/2023 17:57:08",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 87,
+   "Y_pos": 83,
+   "V_Speed": 62
+  },
+  "hash": {
+   "hash": "0000dd3969a29dd1b844064b7fc363a1c1a4570bff00f59ff8cadcb39a15b0e6",
+   "previous_hash": "000b91da58a49a082c0a62c0ff30cbbd98eca1e4a2000fdaec2daa28388bd365",
+   "proof": "22614"
+  }
+ },
+ {
+  "index": 247,
+  "timestamp": "04/14/2023 17:57:08",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 60,
+   "Y_pos": 15,
+   "V_Speed": 96
+  },
+  "hash": {
+   "hash": "0002a7906605cd15f9c8af4cdfb5c9d1378cc6945f2e7b2d8fdbefe707bba6c0",
+   "previous_hash": "0000dd3969a29dd1b844064b7fc363a1c1a4570bff00f59ff8cadcb39a15b0e6",
+   "proof": "4039"
+  }
+ },
+ {
+  "index": 248,
+  "timestamp": "04/14/2023 17:57:08",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 28,
+   "Y_pos": 72,
+   "V_Speed": 25
+  },
+  "hash": {
+   "hash": "000d7ec04051f5da9895cf0b37c6bb95bba0f68e7aff21aacb66964288e86ed5",
+   "previous_hash": "0002a7906605cd15f9c8af4cdfb5c9d1378cc6945f2e7b2d8fdbefe707bba6c0",
+   "proof": "2880"
+  }
+ },
+ {
+  "index": 249,
+  "timestamp": "04/14/2023 17:57:09",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 5,
+   "Y_pos": 6,
+   "V_Speed": 95
+  },
+  "hash": {
+   "hash": "0000852639bb33a4cb0abf1d2b9abc997847066fe318f63c41d0645a16bc0798",
+   "previous_hash": "000d7ec04051f5da9895cf0b37c6bb95bba0f68e7aff21aacb66964288e86ed5",
+   "proof": "2905"
+  }
+ },
+ {
+  "index": 250,
+  "timestamp": "04/14/2023 17:57:09",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 90,
+   "Y_pos": 73,
+   "V_Speed": 38
+  },
+  "hash": {
+   "hash": "00019a0a3d94a44f90fa2e6836f8e40630c5d9183e7abe7643897a6440ea13bb",
+   "previous_hash": "0000852639bb33a4cb0abf1d2b9abc997847066fe318f63c41d0645a16bc0798",
+   "proof": "925"
+  }
+ },
+ {
+  "index": 251,
+  "timestamp": "04/14/2023 17:57:09",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 30,
+   "Y_pos": 92,
+   "V_Speed": 34
+  },
+  "hash": {
+   "hash": "000695b8f399ce3adcd9e8c884e83b5134ebf9b04054805909522265a33878a8",
+   "previous_hash": "00019a0a3d94a44f90fa2e6836f8e40630c5d9183e7abe7643897a6440ea13bb",
+   "proof": "2888"
+  }
+ },
+ {
+  "index": 252,
+  "timestamp": "04/14/2023 17:57:10",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 0,
+   "Y_pos": 75,
+   "V_Speed": 36
+  },
+  "hash": {
+   "hash": "0006d4349aa737dc5f6c831b7b73b213376345f274a08e41efdd86c25a7f88c4",
+   "previous_hash": "000695b8f399ce3adcd9e8c884e83b5134ebf9b04054805909522265a33878a8",
+   "proof": "5300"
+  }
+ },
+ {
+  "index": 253,
+  "timestamp": "04/14/2023 17:57:10",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 57,
+   "Y_pos": 38,
+   "V_Speed": 27
+  },
+  "hash": {
+   "hash": "000a72234d80091da45da015b52f1c4780593b9dc21c0e18f47a71f20f6c5852",
+   "previous_hash": "0006d4349aa737dc5f6c831b7b73b213376345f274a08e41efdd86c25a7f88c4",
+   "proof": "5986"
+  }
+ },
+ {
+  "index": 254,
+  "timestamp": "04/14/2023 17:57:10",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 28,
+   "Y_pos": 60,
+   "V_Speed": 65
+  },
+  "hash": {
+   "hash": "0004b19b1e52822634e9ca58808d083872553ad2e4abc414f1289a0e879c5a5f",
+   "previous_hash": "000a72234d80091da45da015b52f1c4780593b9dc21c0e18f47a71f20f6c5852",
+   "proof": "7744"
+  }
+ },
+ {
+  "index": 255,
+  "timestamp": "04/14/2023 17:57:11",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 93,
+   "Y_pos": 69,
+   "V_Speed": 16
+  },
+  "hash": {
+   "hash": "000281785fee94ce85b2b9c4bce441bd84a31766a7a18b582c5e6c19decd359b",
+   "previous_hash": "0004b19b1e52822634e9ca58808d083872553ad2e4abc414f1289a0e879c5a5f",
+   "proof": "1292"
+  }
+ },
+ {
+  "index": 256,
+  "timestamp": "04/14/2023 17:57:11",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 36,
+   "Y_pos": 82,
+   "V_Speed": 96
+  },
+  "hash": {
+   "hash": "000b856590b823fc8e806bdeb62b36502cdcd1e6be210500a2ef25ce4db45b51",
+   "previous_hash": "000281785fee94ce85b2b9c4bce441bd84a31766a7a18b582c5e6c19decd359b",
+   "proof": "2342"
+  }
+ },
+ {
+  "index": 257,
+  "timestamp": "04/14/2023 17:57:11",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 31,
+   "Y_pos": 65,
+   "V_Speed": 61
+  },
+  "hash": {
+   "hash": "0001f2f3090ba4ec1fdae8cc2168fdfa4cc4399ba8b77ef7825b4c1175efa169",
+   "previous_hash": "000b856590b823fc8e806bdeb62b36502cdcd1e6be210500a2ef25ce4db45b51",
+   "proof": "2129"
+  }
+ },
+ {
+  "index": 258,
+  "timestamp": "04/14/2023 17:57:12",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 40,
+   "Y_pos": 48,
+   "V_Speed": 5
+  },
+  "hash": {
+   "hash": "00005300e562167c8e4a613709927a792359deb3978948b695bd20c8fcdbe03e",
+   "previous_hash": "0001f2f3090ba4ec1fdae8cc2168fdfa4cc4399ba8b77ef7825b4c1175efa169",
+   "proof": "19409"
+  }
+ },
+ {
+  "index": 259,
+  "timestamp": "04/14/2023 17:57:12",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 44,
+   "Y_pos": 87,
+   "V_Speed": 66
+  },
+  "hash": {
+   "hash": "0002eaa9385da98ae173351167231bbb166ca46802a59e6a09bb1a725814bf0c",
+   "previous_hash": "00005300e562167c8e4a613709927a792359deb3978948b695bd20c8fcdbe03e",
+   "proof": "7105"
+  }
+ },
+ {
+  "index": 260,
+  "timestamp": "04/14/2023 17:57:13",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 34,
+   "Y_pos": 42,
+   "V_Speed": 50
+  },
+  "hash": {
+   "hash": "0009c60bd44b0fba171bd7854573fbed0d466ca9a6bc39d90e701e1d910b5075",
+   "previous_hash": "0002eaa9385da98ae173351167231bbb166ca46802a59e6a09bb1a725814bf0c",
+   "proof": "648"
+  }
+ },
+ {
+  "index": 261,
+  "timestamp": "04/14/2023 17:57:13",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 64,
+   "Y_pos": 90,
+   "V_Speed": 86
+  },
+  "hash": {
+   "hash": "000031fb2ead7cc71a80da1114e41623058f946579d981af3af3d703deb363f7",
+   "previous_hash": "0009c60bd44b0fba171bd7854573fbed0d466ca9a6bc39d90e701e1d910b5075",
+   "proof": "8126"
+  }
+ },
+ {
+  "index": 262,
+  "timestamp": "04/14/2023 17:57:13",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 25,
+   "Y_pos": 98,
+   "V_Speed": 84
+  },
+  "hash": {
+   "hash": "000d7e9c18536d0556140b50fc4d6a65b96cf38abed79ae458a37b9ab988377f",
+   "previous_hash": "000031fb2ead7cc71a80da1114e41623058f946579d981af3af3d703deb363f7",
+   "proof": "3211"
+  }
+ },
+ {
+  "index": 263,
+  "timestamp": "04/14/2023 17:57:14",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 77,
+   "Y_pos": 27,
+   "V_Speed": 69
+  },
+  "hash": {
+   "hash": "0006c09fc0b5f40fa99eec7c56cab1cf5525e68e445f3cd288491c145b44033d",
+   "previous_hash": "000d7e9c18536d0556140b50fc4d6a65b96cf38abed79ae458a37b9ab988377f",
+   "proof": "2712"
+  }
+ },
+ {
+  "index": 264,
+  "timestamp": "04/14/2023 17:57:14",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 36,
+   "Y_pos": 25,
+   "V_Speed": 80
+  },
+  "hash": {
+   "hash": "000ca8d73d725c49f3ca5353054efe19a0051b2c84e4779ac4197851500ef731",
+   "previous_hash": "0006c09fc0b5f40fa99eec7c56cab1cf5525e68e445f3cd288491c145b44033d",
+   "proof": "5575"
+  }
+ },
+ {
+  "index": 265,
+  "timestamp": "04/14/2023 17:57:15",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 45,
+   "Y_pos": 89,
+   "V_Speed": 96
+  },
+  "hash": {
+   "hash": "000c4d156470ea0eaddbf6ead86bc20e64e74c350ff135471e79ee8eb8e95032",
+   "previous_hash": "000ca8d73d725c49f3ca5353054efe19a0051b2c84e4779ac4197851500ef731",
+   "proof": "734"
+  }
+ },
+ {
+  "index": 266,
+  "timestamp": "04/14/2023 17:57:15",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 95,
+   "Y_pos": 92,
+   "V_Speed": 92
+  },
+  "hash": {
+   "hash": "0007a76daa0f8607bdef897b4bc4aa246a30ffa94eee7fe206ac77ad60ed69b6",
+   "previous_hash": "000c4d156470ea0eaddbf6ead86bc20e64e74c350ff135471e79ee8eb8e95032",
+   "proof": "8772"
+  }
+ },
+ {
+  "index": 267,
+  "timestamp": "04/14/2023 17:57:15",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 65,
+   "Y_pos": 60,
+   "V_Speed": 54
+  },
+  "hash": {
+   "hash": "0001e53be5c96ac11d8fe12a5cbefd1f4a95653277c1502d20a32c100980b554",
+   "previous_hash": "0007a76daa0f8607bdef897b4bc4aa246a30ffa94eee7fe206ac77ad60ed69b6",
+   "proof": "1793"
+  }
+ },
+ {
+  "index": 268,
+  "timestamp": "04/14/2023 17:57:16",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 8,
+   "Y_pos": 27,
+   "V_Speed": 16
+  },
+  "hash": {
+   "hash": "00012ee5360009df996b0815df006149e8b042089b375b3a74535303703a5ce6",
+   "previous_hash": "0001e53be5c96ac11d8fe12a5cbefd1f4a95653277c1502d20a32c100980b554",
+   "proof": "233"
+  }
+ },
+ {
+  "index": 269,
+  "timestamp": "04/14/2023 17:57:16",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 97,
+   "Y_pos": 85,
+   "V_Speed": 50
+  },
+  "hash": {
+   "hash": "000d97e38f4066996a8c99efc8901b310b66e1434e4f6832451fbef4dbf1f51e",
+   "previous_hash": "00012ee5360009df996b0815df006149e8b042089b375b3a74535303703a5ce6",
+   "proof": "590"
+  }
+ },
+ {
+  "index": 270,
+  "timestamp": "04/14/2023 17:57:17",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 2,
+   "Y_pos": 87,
+   "V_Speed": 73
+  },
+  "hash": {
+   "hash": "000fd66dee42aa39d2cf7786ec3ff35ff0f1c32b7e14c4f452d2a7531b68b3c2",
+   "previous_hash": "000d97e38f4066996a8c99efc8901b310b66e1434e4f6832451fbef4dbf1f51e",
+   "proof": "2783"
+  }
+ },
+ {
+  "index": 271,
+  "timestamp": "04/14/2023 17:57:17",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 93,
+   "Y_pos": 46,
+   "V_Speed": 32
+  },
+  "hash": {
+   "hash": "000705ef0ecb94f026b5fe5d338efc1ba7004aee2ad785d9fd465ee97655da5c",
+   "previous_hash": "000fd66dee42aa39d2cf7786ec3ff35ff0f1c32b7e14c4f452d2a7531b68b3c2",
+   "proof": "16593"
+  }
+ },
+ {
+  "index": 272,
+  "timestamp": "04/14/2023 17:57:17",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 72,
+   "Y_pos": 29,
+   "V_Speed": 5
+  },
+  "hash": {
+   "hash": "0007fe84e006b6e68d375213e4a224af23bf0d5fa142b998f61f5364a111a3de",
+   "previous_hash": "000705ef0ecb94f026b5fe5d338efc1ba7004aee2ad785d9fd465ee97655da5c",
+   "proof": "1612"
+  }
+ },
+ {
+  "index": 273,
+  "timestamp": "04/14/2023 17:57:18",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 58,
+   "Y_pos": 6,
+   "V_Speed": 34
+  },
+  "hash": {
+   "hash": "0004614ccef2b2e527b995cb3a5b5216faa64099862b73b31c776fd038ab75eb",
+   "previous_hash": "0007fe84e006b6e68d375213e4a224af23bf0d5fa142b998f61f5364a111a3de",
+   "proof": "747"
+  }
+ },
+ {
+  "index": 274,
+  "timestamp": "04/14/2023 17:57:18",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 51,
+   "Y_pos": 90,
+   "V_Speed": 14
+  },
+  "hash": {
+   "hash": "0004cca4d558bb19a666663578c115b2912d47ffbb8183733bbf4dd6c410a1f5",
+   "previous_hash": "0004614ccef2b2e527b995cb3a5b5216faa64099862b73b31c776fd038ab75eb",
+   "proof": "1283"
+  }
+ },
+ {
+  "index": 275,
+  "timestamp": "04/14/2023 17:57:18",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 53,
+   "Y_pos": 92,
+   "V_Speed": 42
+  },
+  "hash": {
+   "hash": "000e0376bed57acfb62b6a42941ceba13b116dcd57ce5dea90f05337d452cfbd",
+   "previous_hash": "0004cca4d558bb19a666663578c115b2912d47ffbb8183733bbf4dd6c410a1f5",
+   "proof": "6323"
+  }
+ },
+ {
+  "index": 276,
+  "timestamp": "04/14/2023 17:57:19",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 76,
+   "Y_pos": 90,
+   "V_Speed": 54
+  },
+  "hash": {
+   "hash": "000343f00687acf5c5eb2976956ca85b7e03f39e3f1fd8f1d78441a8421cb6ce",
+   "previous_hash": "000e0376bed57acfb62b6a42941ceba13b116dcd57ce5dea90f05337d452cfbd",
+   "proof": "874"
+  }
+ },
+ {
+  "index": 277,
+  "timestamp": "04/14/2023 17:57:19",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 15,
+   "Y_pos": 66,
+   "V_Speed": 2383
+  },
+  "hash": {
+   "hash": "0001bdfc7d8269bb831f1a4fc3d000eeed6d20b403c561d0987f29209b0ba299",
+   "previous_hash": "000343f00687acf5c5eb2976956ca85b7e03f39e3f1fd8f1d78441a8421cb6ce",
+   "proof": "128"
+  }
+ },
+ {
+  "index": 278,
+  "timestamp": "04/14/2023 17:57:19",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 46,
+   "Y_pos": 68,
+   "V_Speed": 4094
+  },
+  "hash": {
+   "hash": "000fa90f6900f0455da62e5a907646f9ca6c3ff91a1e2c479d7ae0be88368b43",
+   "previous_hash": "0001bdfc7d8269bb831f1a4fc3d000eeed6d20b403c561d0987f29209b0ba299",
+   "proof": "1174"
+  }
+ },
+ {
+  "index": 279,
+  "timestamp": "04/14/2023 17:57:20",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 10,
+   "Y_pos": 6,
+   "V_Speed": 4065
+  },
+  "hash": {
+   "hash": "000abc9db8851aed4ff2651cc825867771bfd98d6836a0cddf96d9e4206e42ae",
+   "previous_hash": "000fa90f6900f0455da62e5a907646f9ca6c3ff91a1e2c479d7ae0be88368b43",
+   "proof": "2642"
+  }
+ },
+ {
+  "index": 280,
+  "timestamp": "04/14/2023 17:57:20",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 13,
+   "Y_pos": 8,
+   "V_Speed": 45
+  },
+  "hash": {
+   "hash": "00096beb6f6c6cf4975850a105bd0001695a09addfff538259c906bb0876ddfb",
+   "previous_hash": "000abc9db8851aed4ff2651cc825867771bfd98d6836a0cddf96d9e4206e42ae",
+   "proof": "4241"
+  }
+ },
+ {
+  "index": 281,
+  "timestamp": "04/14/2023 17:57:21",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 53,
+   "Y_pos": 99,
+   "V_Speed": 23
+  },
+  "hash": {
+   "hash": "00089dd4106e23e0294d32df7cb8d3d164b385e389fb154e361ad146a4eb6328",
+   "previous_hash": "00096beb6f6c6cf4975850a105bd0001695a09addfff538259c906bb0876ddfb",
+   "proof": "231"
+  }
+ },
+ {
+  "index": 282,
+  "timestamp": "04/14/2023 17:57:21",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 69,
+   "Y_pos": 15,
+   "V_Speed": 80
+  },
+  "hash": {
+   "hash": "00079152ca2c7b1337655b740883db1605a24afcb2e3a95629770f0f335681a7",
+   "previous_hash": "00089dd4106e23e0294d32df7cb8d3d164b385e389fb154e361ad146a4eb6328",
+   "proof": "18894"
+  }
+ },
+ {
+  "index": 283,
+  "timestamp": "04/14/2023 17:57:22",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 8,
+   "Y_pos": 69,
+   "V_Speed": 94
+  },
+  "hash": {
+   "hash": "00006e5b7961b9f0293e5c3a6722dd1d88a8bfab755885233b536e765e4f6f07",
+   "previous_hash": "00079152ca2c7b1337655b740883db1605a24afcb2e3a95629770f0f335681a7",
+   "proof": "2910"
+  }
+ },
+ {
+  "index": 284,
+  "timestamp": "04/14/2023 17:57:22",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 97,
+   "Y_pos": 88,
+   "V_Speed": 21
+  },
+  "hash": {
+   "hash": "0004542bbe28a94da59f758883bee3305ace5379cd24a0e0e03fcce17b0fb432",
+   "previous_hash": "00006e5b7961b9f0293e5c3a6722dd1d88a8bfab755885233b536e765e4f6f07",
+   "proof": "3948"
+  }
+ },
+ {
+  "index": 285,
+  "timestamp": "04/14/2023 17:57:22",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 2,
+   "Y_pos": 34,
+   "V_Speed": 90
+  },
+  "hash": {
+   "hash": "000589f00e570ffbb33c1c6d954372e07fdd78709f7d6b816e536ba6bf65f698",
+   "previous_hash": "0004542bbe28a94da59f758883bee3305ace5379cd24a0e0e03fcce17b0fb432",
+   "proof": "16263"
+  }
+ },
+ {
+  "index": 286,
+  "timestamp": "04/14/2023 17:57:23",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 75,
+   "Y_pos": 70,
+   "V_Speed": 43
+  },
+  "hash": {
+   "hash": "000e6e7e91ed9dcbf635b9ea4e1cd572fdb80b4af554c1a66c8a865fdc946ee8",
+   "previous_hash": "000589f00e570ffbb33c1c6d954372e07fdd78709f7d6b816e536ba6bf65f698",
+   "proof": "4630"
+  }
+ },
+ {
+  "index": 287,
+  "timestamp": "04/14/2023 17:57:23",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 45,
+   "Y_pos": 86,
+   "V_Speed": 22
+  },
+  "hash": {
+   "hash": "0003968c033f688d0441c4b783a2dd049da33ff0ec7af04ee7deb2c26d7dca71",
+   "previous_hash": "000e6e7e91ed9dcbf635b9ea4e1cd572fdb80b4af554c1a66c8a865fdc946ee8",
+   "proof": "599"
+  }
+ },
+ {
+  "index": 288,
+  "timestamp": "04/14/2023 17:57:24",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 60,
+   "Y_pos": 93,
+   "V_Speed": 76
+  },
+  "hash": {
+   "hash": "000240b65af1a1bf0193a1a8096c0e46a66ff1fab61b1ff066bec05bcddac252",
+   "previous_hash": "0003968c033f688d0441c4b783a2dd049da33ff0ec7af04ee7deb2c26d7dca71",
+   "proof": "1730"
+  }
+ },
+ {
+  "index": 289,
+  "timestamp": "04/14/2023 17:57:24",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 95,
+   "Y_pos": 68,
+   "V_Speed": 63
+  },
+  "hash": {
+   "hash": "000eadf432be4f793370844f1c4283af097c01d88a12b2784959f98dc47bf339",
+   "previous_hash": "000240b65af1a1bf0193a1a8096c0e46a66ff1fab61b1ff066bec05bcddac252",
+   "proof": "4219"
+  }
+ },
+ {
+  "index": 290,
+  "timestamp": "04/14/2023 17:57:24",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 70,
+   "Y_pos": 70,
+   "V_Speed": 89
+  },
+  "hash": {
+   "hash": "000de53fe5db48880bed5b806bb4c984ad1eb924c4fb08d92a23f9611780d68c",
+   "previous_hash": "000eadf432be4f793370844f1c4283af097c01d88a12b2784959f98dc47bf339",
+   "proof": "5480"
+  }
+ },
+ {
+  "index": 291,
+  "timestamp": "04/14/2023 17:57:25",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 16,
+   "Y_pos": 89,
+   "V_Speed": 35
+  },
+  "hash": {
+   "hash": "00038203c2f184ef002fc9fa38334fc00d5771b8ff3d7d6223dccd1b6efdf39f",
+   "previous_hash": "000de53fe5db48880bed5b806bb4c984ad1eb924c4fb08d92a23f9611780d68c",
+   "proof": "947"
+  }
+ },
+ {
+  "index": 292,
+  "timestamp": "04/14/2023 17:57:25",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 28,
+   "Y_pos": 38,
+   "V_Speed": 9283
+  },
+  "hash": {
+   "hash": "000facebdd524def5c98055cb5cef9d8c38725cd6d2e9797f6ba5b0817966742",
+   "previous_hash": "00038203c2f184ef002fc9fa38334fc00d5771b8ff3d7d6223dccd1b6efdf39f",
+   "proof": "1843"
+  }
+ },
+ {
+  "index": 293,
+  "timestamp": "04/14/2023 17:57:25",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 25,
+   "Y_pos": 19,
+   "V_Speed": 2594
+  },
+  "hash": {
+   "hash": "0006941fdead1657daf3a2b7edb4a572d635d97a96b11b8d350f93277ab9bb59",
+   "previous_hash": "000facebdd524def5c98055cb5cef9d8c38725cd6d2e9797f6ba5b0817966742",
+   "proof": "1311"
+  }
+ },
+ {
+  "index": 294,
+  "timestamp": "04/14/2023 17:57:26",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 39,
+   "Y_pos": 73,
+   "V_Speed": 6765
+  },
+  "hash": {
+   "hash": "0001c92ccc19e287f3f4606fed7a612e361f75aa89571bc4b913e96a198fe7e2",
+   "previous_hash": "0006941fdead1657daf3a2b7edb4a572d635d97a96b11b8d350f93277ab9bb59",
+   "proof": "5613"
+  }
+ },
+ {
+  "index": 295,
+  "timestamp": "04/14/2023 17:57:26",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 7,
+   "Y_pos": 82,
+   "V_Speed": 22
+  },
+  "hash": {
+   "hash": "000475438869509a90ce84daa9cce37483154d09fdbc5b3185e42367dc5e0964",
+   "previous_hash": "0001c92ccc19e287f3f4606fed7a612e361f75aa89571bc4b913e96a198fe7e2",
+   "proof": "2172"
+  }
+ },
+ {
+  "index": 296,
+  "timestamp": "04/14/2023 17:57:27",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 91,
+   "Y_pos": 41,
+   "V_Speed": 77
+  },
+  "hash": {
+   "hash": "00009a598d49c751b6942144024d412e0c3fbc3630a7cd58f28ef1a0778a65ae",
+   "previous_hash": "000475438869509a90ce84daa9cce37483154d09fdbc5b3185e42367dc5e0964",
+   "proof": "3025"
+  }
+ },
+ {
+  "index": 297,
+  "timestamp": "04/14/2023 17:57:27",
+  "data": {
+   "Vehicle_ID": 65,
+   "Vehicle_Manu": "Volvo",
+   "Vehicle_Model": "V70",
+   "Vehicle_State": "Active",
+   "Owner_ID": 99,
+   "Occupancy": 2,
+   "Region": "North-America",
+   "X_pos": 81,
+   "Y_pos": 39,
+   "V_Speed": 90
+  },
+  "hash": {
+   "hash": "000cb6bd5a21bf11b9e8926de5f9a407ff31b9db4959d19a08f5115fd97bbf66",
+   "previous_hash": "00009a598d49c751b6942144024d412e0c3fbc3630a7cd58f28ef1a0778a65ae",
+   "proof": "1870"
+  }
+ },
+ {
+  "index": 298,
+  "timestamp": "04/14/2023 17:57:28",
+  "data": {
+   "Vehicle_ID": 83,
+   "Vehicle_Manu": "Toyota",
+   "Vehicle_Model": "Supra",
+   "Vehicle_State": "Active",
+   "Owner_ID": 47,
+   "Occupancy": 3,
+   "Region": "North-America",
+   "X_pos": 3,
+   "Y_pos": 45,
+   "V_Speed": 86
+  },
+  "hash": {
+   "hash": "000e3f1de2ecf0ea59b8af55f1ee39795e69e7ae7f2f3f71238c9862198bcbe8",
+   "previous_hash": "000cb6bd5a21bf11b9e8926de5f9a407ff31b9db4959d19a08f5115fd97bbf66",
+   "proof": "2589"
+  }
+ },
+ {
+  "index": 299,
+  "timestamp": "04/14/2023 17:57:28",
+  "data": {
+   "Vehicle_ID": 94,
+   "Vehicle_Manu": "Nissan",
+   "Vehicle_Model": "Skyline",
+   "Vehicle_State": "Active",
+   "Owner_ID": 72,
+   "Occupancy": 1,
+   "Region": "North-America",
+   "X_pos": 68,
+   "Y_pos": 45,
+   "V_Speed": 68
+  },
+  "hash": {
+   "hash": "0006e415ca8c21d636479247ae723d664e31b1053fbf889f96616e8381d1cbe3",
+   "previous_hash": "000e3f1de2ecf0ea59b8af55f1ee39795e69e7ae7f2f3f71238c9862198bcbe8",
+   "proof": "10578"
+  }
  }
 ]

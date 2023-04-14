@@ -1,0 +1,12 @@
+{
+ "Vehicle_ID": "5",
+ "Vehicle_Manu": "Volkswagen",
+ "Vehicle_Model": "Golf",
+ "Vehicle_State": "Active",
+ "Owner_ID": "47",
+ "Occupancy": "2",
+ "Region": "North-America",
+ "X_pos": "42",
+ "Y_pos": "36",
+ "V_Speed": "6"
+}

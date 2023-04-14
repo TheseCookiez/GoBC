@@ -1,0 +1,12 @@
+{
+ "Vehicle_ID": "65",
+ "Vehicle_Manu": "Volvo",
+ "Vehicle_Model": "V70",
+ "Vehicle_State": "Active",
+ "Owner_ID": "99",
+ "Occupancy": "2",
+ "Region": "North-America",
+ "X_pos": "85",
+ "Y_pos": "56",
+ "V_Speed": "12"
+}

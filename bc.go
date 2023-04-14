@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"bytes"
 	"crypto/sha256"
 	"encoding/json"
 	"fmt"
@@ -67,6 +68,8 @@ type block struct {
 }
 
 func create_block(proposal block, add_to_chain int) {
+	// Start the performance timer
+	start := time.Now()
 	// Declare variables
 	var new_block block
 	var chain_lenght = len(blockchain)
@@ -119,6 +122,10 @@ func create_block(proposal block, add_to_chain int) {
 	if !validate_blockchain() {
 		blockchain = blockchain[:len(blockchain)-1]
 	}
+	// Stop the performance timer
+	elapsed := time.Since(start)
+	// Print the time it took to create the block
+	fmt.Println("Time to create block: ", elapsed)
 }
 
 // Generate hash and proof of work for the block
@@ -183,7 +190,7 @@ func validate_blockchain() bool {
 	return true
 }
 
-// Calculate the balance of a sender and verify that the sender has enough funds to send the Amount
+// Verify that the Vehcile_ID and owner_ID are valid and that the Vehicle_Manu and Vehicle_Model has not changed
 func verify_data(proposal block) bool {
 	// Iterate through the blockchain
 	for i := 0; i < len(blockchain); i++ {
@@ -222,8 +229,12 @@ func genesis_block() {
 
 // Save the current blockchain as a JSON file
 func save_blockchain_json() {
-	// Create a new JSON file
-	os.Create("blockchain.json")
+	// Open JSON file
+	_, err := os.Open("blockchain.json")
+	if err != nil {
+		// File does not exist
+		fmt.Println(err.Error(), "blockchain.json does not exits!")
+	}
 	// Marshal the blockchain into a JSON file
 	json, err := json.MarshalIndent(blockchain, "", " ")
 	if err != nil {
@@ -265,7 +276,9 @@ func handleRequest(conn net.Conn) {
 			log.Fatal(err)
 		}
 		fmt.Println("Received message:", string(buffer))
-
+		// Remove the null bytes from the buffer
+		buffer = bytes.Trim(buffer, "\x00")
+		// Convert the buffer into a string array and assign values to the correct fields
 		words := strings.Fields(string(buffer))
 		Vehicle_ID := words[0]
 		Vehicle_Manu := words[1]
@@ -277,7 +290,7 @@ func handleRequest(conn net.Conn) {
 		X_pos := words[7]
 		Y_pos := words[8]
 		V_Speed := words[9]
-
+		// Assign the values to the data struct with correct types
 		data.Data.Vehicle_ID, _ = strconv.Atoi(Vehicle_ID)
 		data.Data.Vehicle_Manu = Vehicle_Manu
 		data.Data.Vehicle_Model = Vehicle_Model
@@ -288,8 +301,8 @@ func handleRequest(conn net.Conn) {
 		data.Data.X_pos, _ = strconv.Atoi(X_pos)
 		data.Data.Y_pos, _ = strconv.Atoi(Y_pos)
 		data.Data.V_Speed, _ = strconv.Atoi(V_Speed)
-
-		create_block(data, 0)
+		// Create a new block with the data
+		create_block(data, 1)
 	}
 }
 
